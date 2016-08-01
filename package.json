@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/athombv/com.fibaro.git"
+    "url": "git+https://github.com/bramoosterhuis/com.devolo.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/athombv/com.fibaro#readme"
+  "homepage": "https://github.com/bramoosterhuis/com.devolo#readme"
 }
