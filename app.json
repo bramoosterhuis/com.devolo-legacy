@@ -400,7 +400,7 @@
       "id": "send_the_following_switch_sll_commands",
       "type": "dropdown",
       "label": {
-        "en": "Button 2 and 4 pair mode"
+        "en": "Switch All commands"
       },
       "value": "1",
       "hint": {
