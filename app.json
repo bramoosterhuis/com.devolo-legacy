@@ -404,7 +404,7 @@
       },
       "value": "1",
       "hint": {
-        "en": "The parameter determines the behaviour of buttons 2 and 4."
+        "en": "Send the following Switch All commands."
       },
       "values": [{
         "id": "1",
