@@ -25,7 +25,7 @@
   },
   "flow": {
     "triggers": [{
-      "id": "mt-2652_btn1_single",
+      "id": "mt2652_btn1_single",
       "title": {
         "en": "Button 1 single press"
       },
@@ -35,7 +35,7 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn1_double",
+      "id": "mt2652_btn1_double",
       "title": {
         "en": "Button 1 double press"
       },
@@ -45,7 +45,17 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn2_single",
+      "id": "mt2652_btn1_long",
+      "title": {
+        "en": "Button 1 long press"
+      },
+      "args": [{
+        "name": "device",
+        "type": "device",
+        "filter": "driver_id=MT2652"
+      }]
+    }, {
+      "id": "mt2652_btn2_single",
       "title": {
         "en": "Button 2 single press"
       },
@@ -55,7 +65,7 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn2_double",
+      "id": "mt2652_btn2_double",
       "title": {
         "en": "Button 2 double press"
       },
@@ -65,7 +75,17 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn3_single",
+      "id": "mt2652_btn2_long",
+      "title": {
+        "en": "Button 2 long press"
+      },
+      "args": [{
+        "name": "device",
+        "type": "device",
+        "filter": "driver_id=MT2652"
+      }]
+    }, {
+      "id": "mt2652_btn3_single",
       "title": {
         "en": "Button 3 single press"
       },
@@ -75,7 +95,7 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn3_double",
+      "id": "mt2652_btn3_double",
       "title": {
         "en": "Button 3 double press"
       },
@@ -85,9 +105,9 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn4_single",
+      "id": "mt2652_btn3_long",
       "title": {
-        "en": "Button 3 single press"
+        "en": "Button 3 long press"
       },
       "args": [{
         "name": "device",
@@ -95,9 +115,29 @@
         "filter": "driver_id=MT2652"
       }]
     }, {
-      "id": "mt-2652_btn4_double",
+      "id": "mt2652_btn4_single",
       "title": {
-        "en": "Button 3 double press"
+        "en": "Button 4 single press"
+      },
+      "args": [{
+        "name": "device",
+        "type": "device",
+        "filter": "driver_id=MT2652"
+      }]
+    }, {
+      "id": "mt2652_btn4_long",
+      "title": {
+        "en": "Button 4 long press"
+      },
+      "args": [{
+        "name": "device",
+        "type": "device",
+        "filter": "driver_id=MT2652"
+      }]
+    }, {
+      "id": "mt2652_btn4_double",
+      "title": {
+        "en": "Button 4 double press"
       },
       "args": [{
         "name": "device",
@@ -132,9 +172,7 @@
     },
     "class": "light",
     "capabilities": [
-      "dim",
-      "onoff",
-      "measure_battery"
+      "battery_report"
     ],
     "images": {
       "large": "/drivers/MT2652/assets/images/large.png",
