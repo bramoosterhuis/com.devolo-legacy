@@ -89,12 +89,10 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
             }
         }
     }
-   
 })
 
 // bind Flow
 module.exports.on('initNode', function( token ){
-
 	var node = module.exports.nodes[ token ];
 	if( node ) {
 		node.instance.CommandClass['COMMAND_CLASS_CENTRAL_SCENE'].on('report', function( command, report ){
@@ -106,39 +104,27 @@ module.exports.on('initNode', function( token ){
 					case 1:
 						trigger += '1_single';
 						break;
-					case 2:
+                    case 2:
+                        trigger += '2_single';
+                        break;
+                    case 3:
+                        trigger += '3_single';
+                        break;
+                    case 4:
+                        trigger += '4_single';
+                        break;
+					case 5:
 						trigger += '1_double';
 						break;
-					case 3:
-						trigger += '1_long';
-						break;
-					case 4:
-						trigger += '2_single';
-						break;
-					case 5:
-						trigger += '2_double';
-						break;
-					case 6:
-						trigger += '2_long';
-						break;
-					case 7:
-						trigger += '3_single';
-						break;
-					case 8:
-						trigger += '3_double';
-						break;
-					case 9:
-						trigger += '3_long';
-						break;
-					case 10:
-						trigger += '4_single';
-						break;
-					case 11:
-						trigger += '4_double';
-						break;
-					case 12:
-						trigger += '4_long';
-						break;
+                    case 6:
+                        trigger += '2_double';
+                        break;
+                    case 7:
+                        trigger += '3_double';
+                        break
+                    case 8:
+                        trigger += '4_double';
+                        break;
 				}
 
 				Homey.manager('flow').triggerDevice(trigger, null, null, node.device_data);

@@ -27,7 +27,8 @@
     "triggers": [{
       "id": "mt2652_btn1_single",
       "title": {
-        "en": "Button 1 single press"
+        "en": "Button 1 single press",
+        "nl": "Een maal gedrukt op knop 1"
       },
       "args": [{
         "name": "device",
@@ -37,27 +38,19 @@
     }, {
       "id": "mt2652_btn1_double",
       "title": {
-        "en": "Button 1 double press"
+        "en": "Button 1 double press",
+        "nl": "Twee maal gedrukt op knop 1"
       },
       "args": [{
         "name": "device",
         "type": "device",
         "filter": "driver_id=MT2652"
       }]
-    }, {
-      "id": "mt2652_btn1_long",
-      "title": {
-        "en": "Button 1 long press"
-      },
-      "args": [{
-        "name": "device",
-        "type": "device",
-        "filter": "driver_id=MT2652"
-      }]
-    }, {
+    },  {
       "id": "mt2652_btn2_single",
       "title": {
-        "en": "Button 2 single press"
+        "en": "Button 2 single press",
+        "nl": "Een maal gedrukt op knop 2"
       },
       "args": [{
         "name": "device",
@@ -67,17 +60,8 @@
     }, {
       "id": "mt2652_btn2_double",
       "title": {
-        "en": "Button 2 double press"
-      },
-      "args": [{
-        "name": "device",
-        "type": "device",
-        "filter": "driver_id=MT2652"
-      }]
-    }, {
-      "id": "mt2652_btn2_long",
-      "title": {
-        "en": "Button 2 long press"
+        "en": "Button 2 double press",
+        "nl": "Twee maal gedrukt op knop 2"
       },
       "args": [{
         "name": "device",
@@ -87,7 +71,8 @@
     }, {
       "id": "mt2652_btn3_single",
       "title": {
-        "en": "Button 3 single press"
+        "en": "Button 3 single press",
+        "nl": "Een maal gedrukt op knop 3"
       },
       "args": [{
         "name": "device",
@@ -97,17 +82,8 @@
     }, {
       "id": "mt2652_btn3_double",
       "title": {
-        "en": "Button 3 double press"
-      },
-      "args": [{
-        "name": "device",
-        "type": "device",
-        "filter": "driver_id=MT2652"
-      }]
-    }, {
-      "id": "mt2652_btn3_long",
-      "title": {
-        "en": "Button 3 long press"
+        "en": "Button 3 double press",
+        "nl": "Twee maal gedrukt op knop 3"
       },
       "args": [{
         "name": "device",
@@ -117,17 +93,8 @@
     }, {
       "id": "mt2652_btn4_single",
       "title": {
-        "en": "Button 4 single press"
-      },
-      "args": [{
-        "name": "device",
-        "type": "device",
-        "filter": "driver_id=MT2652"
-      }]
-    }, {
-      "id": "mt2652_btn4_long",
-      "title": {
-        "en": "Button 4 long press"
+        "en": "Button 4 single press",
+        "nl": "Een maal gedrukt op knop 4"
       },
       "args": [{
         "name": "device",
@@ -137,7 +104,8 @@
     }, {
       "id": "mt2652_btn4_double",
       "title": {
-        "en": "Button 4 double press"
+        "en": "Button 4 double press",
+        "nl": "Twee maal gedrukt op knop 4"
       },
       "args": [{
         "name": "device",
@@ -158,8 +126,8 @@
       "learnmode": {
         "image": "/drivers/MT2652/assets/learnmode.svg",
         "instruction": {
-          "en": "Pushi all four buttons for 5 sec. A blinking green LED indicates the management mode. (Re)Inclusion and Exclusion are performed by pushing button 1",
-          "nl": "Druk voor 5 seconden alle vier de knoppen tegelijker tijd in tot de groen led gaat knipperen. Dan druk op knop 1."
+          "en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
+          "nl": "Om paiting te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
         }
       },
       "associationGroups": [
