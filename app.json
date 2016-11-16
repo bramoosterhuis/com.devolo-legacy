@@ -114,7 +114,8 @@
       }]
     }]
   },
-  "drivers": [{
+  "drivers": [
+    {
     "id": "MT2652",
     "name": {
       "en": "Devolo Scene Switch (Z-Wave Plus)"
@@ -484,5 +485,43 @@
         }
       }]
     }]
-  }]
+  },
+    {
+      "id": "014G0801",
+      "name": {
+        "en": "Devolo Home Control Radiator Thermostat",
+        "nl": "Devolo Home Control Radiatorthermostaat"
+      },
+      "zwave": {
+        "manufacturerId": 373,
+        "productTypeId": 5,
+        "wakeUpInterval": 300,
+        "productId": 373,
+        "learnmode": {
+          "instruction": {
+            "en": "Press the middle button on your Devolo radiator thermostat.",
+            "nl": "Druk op de middelste knop van de Devolo radiatorthermostaat."
+          }
+        },
+        "associationGroups": [
+          1
+        ]
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "target_temperature",
+        "measure_battery"
+      ],
+      "capabilitiesOptions": {
+        "target_temperature": {
+          "min": 4,
+          "max": 28
+        }
+      },
+      "images": {
+        "large": "/drivers/014G0801/assets/images/large.jpg",
+        "small": "/drivers/014G0801/assets/images/small.jpg"
+      }
+    }
+  ]
 }
