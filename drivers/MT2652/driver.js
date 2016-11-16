@@ -8,12 +8,13 @@ const ZwaveDriver = require("homey-zwavedriver");
 module.exports = new ZwaveDriver(path.basename(__dirname), {
     debug: true,
     capabilities: {
-        "battery_report": {
-            "command_class": "COMMAND_CLASS_BATTERY",
-            "command_report": "BATTERY_REPORT",
-            "command_report_parser": function (report) {
-                if (report["Battery Level"] === "battery low warning") return 1;
-                return report["Battery Level (Raw)"][0];
+        measure_battery: {
+            command_class: 'COMMAND_CLASS_BATTERY',
+            command_get: 'BATTERY_GET',
+            command_report: 'BATTERY_REPORT',
+            command_report_parser: report => {
+            if (report['Battery Level'] === "battery low warning") return 1;
+                return report['Battery Level (Raw)'][0];
             }
         }
     },

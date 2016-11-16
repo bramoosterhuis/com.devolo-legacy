@@ -141,13 +141,14 @@
     },
     "class": "light",
     "capabilities": [
-      "battery_report"
+      "measure_battery"
     ],
     "images": {
       "large": "/drivers/MT2652/assets/images/large.png",
       "small": "/drivers/MT2652/assets/images/small.png"
     },
-    "settings": [{
+    "settings": [
+      {
       "id": "button_1_and_3_pair_mode",
       "type": "dropdown",
       "label": {
@@ -173,7 +174,8 @@
           "en": "(2) Pair with double clicks. In pair button A/C are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
         }
       }]
-    }, {
+    },
+      {
       "id": "button_2_and_4_pair_mode",
       "type": "dropdown",
       "label": {
@@ -199,7 +201,8 @@
           "en": "(2) Pair with double clicks. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
         }
       }]
-    }, {
+    },
+      {
       "id": "command_to_control_group_a",
       "type": "dropdown",
       "label": {
@@ -250,7 +253,8 @@
           "en": "(8) Central Scene to Gateway (Default)"
         }
       }]
-    }, {
+    },
+      {
       "id": "command_to_control_group_b",
       "type": "dropdown",
       "label": {
@@ -301,7 +305,8 @@
           "en": "(8) Central Scene to Gateway (Default)"
         }
       }]
-    }, {
+    },
+      {
       "id": "command_to_control_group_c",
       "type": "dropdown",
       "label": {
@@ -352,7 +357,8 @@
           "en": "(8) Central Scene to Gateway (Default)"
         }
       }]
-    }, {
+    },
+      {
       "id": "command_to_control_group_d",
       "type": "dropdown",
       "label": {
@@ -403,7 +409,8 @@
           "en": "(8) Central Scene to Gateway (Default)"
         }
       }]
-    }, {
+    },
+      {
       "id": "send_the_following_switch_sll_commands",
       "type": "dropdown",
       "label": {
@@ -429,7 +436,8 @@
           "en": "(255) Switch all on and off"
         }
       }]
-    }, {
+    },
+      {
       "id": "invert_buttons",
       "type": "checkbox",
       "label": {
@@ -440,7 +448,8 @@
         "en": "Invert the behaviour of the buttons."
       }
 
-    }, {
+    },
+      {
       "id": "blocks_wakeup_even_when_wakeup_interval_is_set",
       "type": "dropdown",
       "label": {
@@ -461,7 +470,8 @@
           "en": "(1) Wakeup is possible if configured accordingly. (Default)"
         }
       }]
-    }, {
+    },
+      {
       "id": "send_unsolicited_battery_report_on_wake_up",
       "type": "dropdown",
       "label": {
