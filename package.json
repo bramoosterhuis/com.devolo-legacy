@@ -1,6 +1,6 @@
 {
   "name": "com.devolo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This app adds support for Devolo devices in Homey",
   "main": "app.js",
   "dependencies": {
