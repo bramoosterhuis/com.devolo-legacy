@@ -525,8 +525,8 @@
 			}
 		},
 		"images": {
-			"small": "drivers/014G0801/assets/images/small.png",
-			"large": "drivers/014G0801/assets/images/large.png"
+			"small": "drivers/014G0801/assets/images/small.jpg",
+			"large": "drivers/014G0801/assets/images/large.jpg"
 		}
 	}]
 }
