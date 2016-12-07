@@ -590,7 +590,7 @@
 			"manufacturerId": 2,
 			"productTypeId": 5,
 			"productId": 373,
-			"wakeUpInterval": 300,
+			"wakeUpInterval": 1800,
 			"learnmode": {
 				"image": "drivers/014G0801/assets/learnmode.svg",
 				"instruction": {
