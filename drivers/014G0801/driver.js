@@ -31,12 +31,19 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 			//
 			command_class: 'COMMAND_CLASS_BATTERY',
 			command_get: 'BATTERY_GET',
-			command_report: 'BATTERY_REPORT',
-			command_report_parser: report => {
-				var batt_level = report['Battery Level (Raw)'][0];
-				// 0xFF is a special value to indicate the battery is low
-				return (batt_level == 0xFF) ? 1 : batt_level;
-			},
+			command_report: 'BATTERY_REPORT',   
+			command_report_parser: (report, node) => {
+				// If prev value is not empty and new value is empty
+				if (node && node.state && node.state.measure_battery !== 1 && report['Battery Level (Raw)'][0] == 0xFF) {
+
+					// Trigger device flow
+					Homey.manager('flow').triggerDevice('014g0801_battery_alarm', {}, {}, node.device_data, err => {
+						if (err) console.error('Error triggerDevice -> battery_alarm', err);
+					});
+				}
+				if (report['Battery Level (Raw)'][0] == 0xFF) return 1;
+					return report['Battery Level (Raw)'][0];
+            },
 			pollInterval: wakeUpInterval
 		},
 		
