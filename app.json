@@ -6,8 +6,8 @@
 	"version": "1.0.2",
 	"compatibility": ">=1.0.2",
 	"description": {
-		"en": "Devolo z-wave devices for Homey",
-		"nl": "Devolo z-wave devices voor Homey"
+		"en": "Devolo Home Control z-wave devices for Homey",
+		"nl": "Devolo Home Control z-wave devices voor Homey"
 	},
 	"category": [
 		"appliances",
@@ -220,7 +220,7 @@
 				"filter": "driver_id=MT2652"
 			}]
 		}, {
-			"id": "014G0801_battery_alarm",
+			"id": "014g0801_battery_alarm",
 			"title": {
 				"en": "The battery alarm turned on",
 				"nl": "De batterijwaarschuwing gaat aan"
@@ -246,12 +246,14 @@
 	"drivers": [{
 		"id": "MT2652",
 		"name": {
-			"en": "Devolo Scene Switch (Z-Wave Plus)"
+			"en": "Scene Switch"
+			"en": "Intelligente Schakelaar"
 		},
 		"zwave": {
 			"manufacturerId": 373,
 			"productTypeId": 256,
 			"productId": 257,
+			"wakeUpInterval": 1800,
 			"learnmode": {
 				"image": "/drivers/MT2652/assets/learnmode.svg",
 				"instruction": {
@@ -616,8 +618,8 @@
 	}, {
 		"id": "014G0801",
 		"name": {
-			"en": "Home Control Radiator Thermostat",
-			"nl": "Home Control Radiatorthermostaat"
+			"en": "Radiator Thermostat",
+			"nl": "Radiatorthermostaat"
 		},
 		"zwave": {
 			"manufacturerId": 2,
@@ -652,13 +654,14 @@
 	}, {
 		"id": "MT2653",
 		"name": {
-			"en": "Devolo keyfob",
-			"nl": "Devolo sleutelhanger afstandsbediening"
+			"en": "Keyfob",
+			"nl": "Sleutelhanger afstandsbediening"
 		},
 		"zwave": {
 			"manufacturerId": 373,
 			"productTypeId": 256,
 			"productId": 258,
+			"wakeUpInterval": 1800,
 			"learnmode": {
 				"image": "/drivers/MT2653/assets/learnmode.svg",
 				"instruction": {
