@@ -98,37 +98,21 @@ module.exports.on('initNode', function( token ){
 	if( node ) {
 		node.instance.CommandClass['COMMAND_CLASS_CENTRAL_SCENE'].on('report', function( command, report ){
 			if( command.name === 'CENTRAL_SCENE_NOTIFICATION' ) {
-
-				var trigger = 'mt2652_btn';
-
-				switch( report['Scene Number'] ) {
-					case 1:
-						trigger += '1_single';
-						break;
-                    case 2:
-                        trigger += '2_single';
-                        break;
-                    case 3:
-                        trigger += '3_single';
-                        break;
-                    case 4:
-                        trigger += '4_single';
-                        break;
-					case 5:
-						trigger += '1_double';
-						break;
-                    case 6:
-                        trigger += '2_double';
-                        break;
-                    case 7:
-                        trigger += '3_double';
-                        break
-                    case 8:
-                        trigger += '4_double';
-                        break;
+				var triggerMap = {
+					'1': '1_single',
+					'2': '2_single',
+					'3': '3_single',
+					'4': '4_single',
+					'5': '1_double',
+					'6': '2_double',
+					'7': '3_double',
+					'8': '4_double'
 				}
 
-				Homey.manager('flow').triggerDevice(trigger, null, null, node.device_data);
+				var triggerId = triggerMap[ report['Scene ID'] ];
+				if (triggerId) {
+					Homey.manager('flow').triggerDevice(`mt2652_btn${triggerId}`, null, null, node.device_data);
+				}
 			}
 		});
 	}
