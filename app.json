@@ -246,8 +246,8 @@
 	"drivers": [{
 		"id": "MT2652",
 		"name": {
-			"en": "Scene Switch"
-			"en": "Intelligente Schakelaar"
+			"en": "Scene Switch",
+			"nl": "Intelligente Schakelaar"
 		},
 		"zwave": {
 			"manufacturerId": 373,
