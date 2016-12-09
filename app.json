@@ -618,14 +618,14 @@
 	}, {
 		"id": "014G0801",
 		"name": {
-			"en": "Radiator Thermostat",
-			"nl": "Radiatorthermostaat"
+			"en": "Home Control Radiator Thermostat",
+			"nl": "Home Control Radiatorthermostaat"
 		},
 		"zwave": {
 			"manufacturerId": 2,
 			"productTypeId": 5,
 			"productId": 373,
-			"wakeUpInterval": 1800,
+			"wakeUpInterval": 300,
 			"learnmode": {
 				"image": "drivers/014G0801/assets/learnmode.svg",
 				"instruction": {
@@ -644,13 +644,34 @@
 		"capabilitiesOptions": {
 			"target_temperature": {
 				"min": 4,
-				"max": 28
+				"max": 28,
+				"step": 0.5
 			}
 		},
 		"images": {
 			"small": "drivers/014G0801/assets/images/small.jpg",
 			"large": "drivers/014G0801/assets/images/large.jpg"
-		}
+		},
+		"settings": [{
+            "type": "group",
+            "label": {
+                "en": "General settings",
+				"nl": "Algemene instellingen"
+            },
+            "children": [{
+                "id": "protected",
+                "type": "checkbox",
+                "value": false,
+                "label": {
+                    "en": "Protected",
+					"nl": "Beveiligd"
+                },
+                "hint": {
+                    "en": "Prevent making changes on the device itself",
+					"nl": "Voorkom dat er wijzigingen gemaakt kunnen worden op het apparaat"
+                }
+			}]
+		}]
 	}, {
 		"id": "MT2653",
 		"name": {
