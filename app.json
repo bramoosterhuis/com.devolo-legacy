@@ -875,8 +875,8 @@
 				"measure_battery"
 			],
 			"images": {
-				"small": "drivers/MT2653/assets/images/small.jpg",
-				"large": "drivers/MT2653/assets/images/large.jpg"
+				"small": "drivers/MT2653/assets/images/small.png",
+				"large": "drivers/MT2653/assets/images/large.png"
 			},
 			"settings": [
 		    {
