@@ -12,7 +12,8 @@
 	"category": [
 		"appliances",
 		"lights",
-		"climate"
+		"climate",
+		"security"
 	],
 	"images": {
 		"large": "/assets/images/large.png",
@@ -23,1006 +24,2291 @@
 		"email": "bram.oosterhuis.nl@gmail.com"
 	},
 	"contributors": {
-		"developers": [{
-			"name": "Bram Oosterhuis",
-			"email": "bram.oosterhuis.nl@gmail.com"
-		}, {
-			"name": "Michel de Ru",
-			"email": "michel@de-ru.net"
-		}]
+		"developers": [
+			{
+				"name": "Bram Oosterhuis",
+				"email": "bram.oosterhuis.nl@gmail.com"
+			},
+			{
+				"name": "Michel de Ru",
+				"email": "michel@de-ru.net"
+			}
+		]
 	},
 	"flow": {
-		"triggers": [{
-			"id": "mt2652_btn1_single",
-			"title": {
-				"en": "Button 1 single press",
-				"nl": "Een maal gedrukt op knop 1"
+		"triggers": [
+			{
+				"id": "mt2652_btn1_single",
+				"title": {
+					"en": "Button 1 single press",
+					"nl": "Een maal gedrukt op knop 1"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn1_double",
-			"title": {
-				"en": "Button 1 double press",
-				"nl": "Twee maal gedrukt op knop 1"
+			{
+				"id": "mt2652_btn1_double",
+				"title": {
+					"en": "Button 1 double press",
+					"nl": "Twee maal gedrukt op knop 1"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn2_single",
-			"title": {
-				"en": "Button 2 single press",
-				"nl": "Een maal gedrukt op knop 2"
+			{
+				"id": "mt2652_btn2_single",
+				"title": {
+					"en": "Button 2 single press",
+					"nl": "Een maal gedrukt op knop 2"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn2_double",
-			"title": {
-				"en": "Button 2 double press",
-				"nl": "Twee maal gedrukt op knop 2"
+			{
+				"id": "mt2652_btn2_double",
+				"title": {
+					"en": "Button 2 double press",
+					"nl": "Twee maal gedrukt op knop 2"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn3_single",
-			"title": {
-				"en": "Button 3 single press",
-				"nl": "Een maal gedrukt op knop 3"
+			{
+				"id": "mt2652_btn3_single",
+				"title": {
+					"en": "Button 3 single press",
+					"nl": "Een maal gedrukt op knop 3"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn3_double",
-			"title": {
-				"en": "Button 3 double press",
-				"nl": "Twee maal gedrukt op knop 3"
+			{
+				"id": "mt2652_btn3_double",
+				"title": {
+					"en": "Button 3 double press",
+					"nl": "Twee maal gedrukt op knop 3"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn4_single",
-			"title": {
-				"en": "Button 4 single press",
-				"nl": "Een maal gedrukt op knop 4"
+			{
+				"id": "mt2652_btn4_single",
+				"title": {
+					"en": "Button 4 single press",
+					"nl": "Een maal gedrukt op knop 4"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2652_btn4_double",
-			"title": {
-				"en": "Button 4 double press",
-				"nl": "Twee maal gedrukt op knop 4"
+			{
+				"id": "mt2652_btn4_double",
+				"title": {
+					"en": "Button 4 double press",
+					"nl": "Twee maal gedrukt op knop 4"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2652"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "mt2653_btn1_single",
-			"title": {
-				"en": "Button 1 single press",
-				"nl": "Een maal gedrukt op knop 1"
+			{
+				"id": "mt2653_btn1_single",
+				"title": {
+					"en": "Button 1 single press",
+					"nl": "Een maal gedrukt op knop 1"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn1_double",
-			"title": {
-				"en": "Button 1 double press",
-				"nl": "Twee maal gedrukt op knop 1"
+			{
+				"id": "mt2653_btn1_double",
+				"title": {
+					"en": "Button 1 double press",
+					"nl": "Twee maal gedrukt op knop 1"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn2_single",
-			"title": {
-				"en": "Button 2 single press",
-				"nl": "Een maal gedrukt op knop 2"
+			{
+				"id": "mt2653_btn2_single",
+				"title": {
+					"en": "Button 2 single press",
+					"nl": "Een maal gedrukt op knop 2"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn2_double",
-			"title": {
-				"en": "Button 2 double press",
-				"nl": "Twee maal gedrukt op knop 2"
+			{
+				"id": "mt2653_btn2_double",
+				"title": {
+					"en": "Button 2 double press",
+					"nl": "Twee maal gedrukt op knop 2"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn3_single",
-			"title": {
-				"en": "Button 3 single press",
-				"nl": "Een maal gedrukt op knop 3"
+			{
+				"id": "mt2653_btn3_single",
+				"title": {
+					"en": "Button 3 single press",
+					"nl": "Een maal gedrukt op knop 3"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn3_double",
-			"title": {
-				"en": "Button 3 double press",
-				"nl": "Twee maal gedrukt op knop 3"
+			{
+				"id": "mt2653_btn3_double",
+				"title": {
+					"en": "Button 3 double press",
+					"nl": "Twee maal gedrukt op knop 3"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn4_single",
-			"title": {
-				"en": "Button 4 single press",
-				"nl": "Een maal gedrukt op knop 4"
+			{
+				"id": "mt2653_btn4_single",
+				"title": {
+					"en": "Button 4 single press",
+					"nl": "Een maal gedrukt op knop 4"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2653_btn4_double",
-			"title": {
-				"en": "Button 4 double press",
-				"nl": "Twee maal gedrukt op knop 4"
+			{
+				"id": "mt2653_btn4_double",
+				"title": {
+					"en": "Button 4 double press",
+					"nl": "Twee maal gedrukt op knop 4"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device",
+						"filter": "driver_id=MT2653"
+					}
+				]
 			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}, {
-			"id": "mt2652_battery_alarm",
-			"title": {
-				"en": "The battery alarm turned on",
-				"nl": "De batterijwaarschuwing gaat aan"
-			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2652"
-			}]
-		}, {
-			"id": "014g0801_battery_alarm",
-			"title": {
-				"en": "The battery alarm turned on",
-				"nl": "De batterijwaarschuwing gaat aan"
-			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=014G0801"
-			}]
-		}, {
-			"id": "mt2653_battery_alarm",
-			"title": {
-				"en": "The battery alarm turned on",
-				"nl": "De batterijwaarschuwing gaat aan"
-			},
-			"args": [{
-				"name": "device",
-				"type": "device",
-				"filter": "driver_id=MT2653"
-			}]
-		}]
+			{
+				"id": "battery_alarm",
+				"title": {
+					"en": "The battery alarm turned on",
+					"nl": "De batterijwaarschuwing gaat aan"
+				},
+				"args": [
+					{
+						"name": "device",
+						"type": "device"
+					}
+				]
+			}
+		]
 	},
-	"drivers": [{
-		"id": "MT2652",
-		"name": {
-			"en": "Scene Switch",
-			"nl": "Intelligente Schakelaar"
+	"drivers": [
+		{
+			"id": "MT2652",
+			"name": {
+				"en": "Scene Switch",
+				"nl": "Intelligente Schakelaar"
+			},
+			"zwave": {
+				"manufacturerId": 373,
+				"productTypeId": 256,
+				"productId": 257,
+				"wakeUpInterval": 1800,
+				"learnmode": {
+					"image": "/drivers/MT2652/assets/learnmode.svg",
+					"instruction": {
+						"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
+						"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
+					}
+				},
+				"associationGroups": [
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"class": "light",
+			"capabilities": [
+				"measure_battery"
+			],
+			"images": {
+				"large": "/drivers/MT2652/assets/images/large.png",
+				"small": "/drivers/MT2652/assets/images/small.png"
+			},
+			"mobile": {
+				"compontents": [
+					{
+						"id": "icon"
+					},
+					{
+						"id": "battery",
+						"capabilities": [
+							"measure_battery"
+						]
+					}
+				]
+			},
+			"settings": [
+			 {
+				 "id": "1",
+				 "value": "1",
+				 "label": {
+					 "en": "Button 1 and 3 pair mode"
+				 },
+				 "hint": {
+					 "en": "In separate mode button 1 works with group A, button 3 with groups C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button 1/3 are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group A, double click with group C."
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "In pair with double clicks"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "seperately"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "In pair without double clicks"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "11",
+				 "value": "8",
+				 "label": {
+					 "en": "Command to Control Group A"
+				 },
+				 "hint": {
+					 "en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed"
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Send Preconfigured Scenes"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Control DoorLock"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Central Scene to Gateway"
+						 }
+					 },
+					 {
+						 "id": "3",
+						 "label": {
+							 "en": "Disabled"
+						 }
+					 },
+					 {
+						 "id": "4",
+						 "label": {
+							 "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+						 }
+					 },
+					 {
+						 "id": "5",
+						 "label": {
+							 "en": "Switch On/Off only (send Basic Set)"
+						 }
+					 },
+					 {
+						 "id": "6",
+						 "label": {
+							 "en": "Switch All"
+						 }
+					 },
+					 {
+						 "id": "7",
+						 "label": {
+							 "en": "Send Scenes"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "12",
+				 "value": "8",
+				 "label": {
+					 "en": "Command to Control Group B"
+				 },
+				 "hint": {
+					 "en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed"
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Send Scenes"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Switch All"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Send Preconfigured Scenes"
+						 }
+					 },
+					 {
+						 "id": "3",
+						 "label": {
+							 "en": "Control DoorLock"
+						 }
+					 },
+					 {
+						 "id": "4",
+						 "label": {
+							 "en": "Central Scene to Gateway "
+						 }
+					 },
+					 {
+						 "id": "5",
+						 "label": {
+							 "en": "Disabled"
+						 }
+					 },
+					 {
+						 "id": "6",
+						 "label": {
+							 "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+						 }
+					 },
+					 {
+						 "id": "7",
+						 "label": {
+							 "en": "Switch On/Off only (send Basic Set)"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "13",
+				 "value": "8",
+				 "label": {
+					 "en": "Command to Control Group C"
+				 },
+				 "hint": {
+					 "en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed"
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Disabled"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Switch On/Off only (send Basic Set)"
+						 }
+					 },
+					 {
+						 "id": "3",
+						 "label": {
+							 "en": "Switch All"
+						 }
+					 },
+					 {
+						 "id": "4",
+						 "label": {
+							 "en": "Send Scenes"
+						 }
+					 },
+					 {
+						 "id": "5",
+						 "label": {
+							 "en": "Send Preconfigured Scenes"
+						 }
+					 },
+					 {
+						 "id": "6",
+						 "label": {
+							 "en": "Control DoorLock"
+						 }
+					 },
+					 {
+						 "id": "7",
+						 "label": {
+							 "en": "Central Scene to Gateway "
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "14",
+				 "value": "8",
+				 "label": {
+					 "en": "Command to Control Group D"
+				 },
+				 "hint": {
+					 "en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed"
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Disabled"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Switch On/Off only (send Basic Set)"
+						 }
+					 },
+					 {
+						 "id": "3",
+						 "label": {
+							 "en": "Switch All"
+						 }
+					 },
+					 {
+						 "id": "4",
+						 "label": {
+							 "en": "Send Scenes"
+						 }
+					 },
+					 {
+						 "id": "5",
+						 "label": {
+							 "en": "Send Preconfigured Scenes"
+						 }
+					 },
+					 {
+						 "id": "6",
+						 "label": {
+							 "en": "Control DoorLock"
+						 }
+					 },
+					 {
+						 "id": "7",
+						 "label": {
+							 "en": "Central Scene to Gateway "
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "2",
+				 "value": "1",
+				 "label": {
+					 "en": "Button 2 and 4 pair mode "
+				 },
+				 "hint": {
+					 "en": "In separate mode button 2 works with control group B, button 4 with control group D. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B, double click with group D."
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "In pair with double clicks"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "In pair without double clicks"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "seperately"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "21",
+				 "value": "1",
+				 "label": {
+					 "en": "Send the following Switch All commands "
+				 },
+				 "hint": {
+					 "en": {}
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Switch off only"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Switch on only"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Switch all on and off"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "22",
+				 "value": "0",
+				 "label": {
+					 "en": "Invert buttons"
+				 },
+				 "hint": {
+					 "en": {}
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Yes"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "No"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "25",
+				 "value": "1",
+				 "label": {
+					 "en": "Blocks wakeup even when wakeup interval is set"
+				 },
+				 "hint": {
+					 "en": {}
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "Wakeup is blocked"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "Wakeup is not blocked"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 },
+			 {
+				 "id": "30",
+				 "value": "0",
+				 "label": {
+					 "en": "Send unsolicited Battery Report on Wake Up"
+				 },
+				 "hint": {
+					 "en": {}
+				 },
+				 "values": [
+					 {
+						 "id": "0",
+						 "label": {
+							 "en": "No"
+						 }
+					 },
+					 {
+						 "id": "1",
+						 "label": {
+							 "en": "To same node as wake up notification"
+						 }
+					 },
+					 {
+						 "id": "2",
+						 "label": {
+							 "en": "Broadcast"
+						 }
+					 }
+				 ],
+				 "type": "dropdown"
+			 }
+		 ]
 		},
-		"zwave": {
-			"manufacturerId": 373,
-			"productTypeId": 256,
-			"productId": 257,
-			"wakeUpInterval": 1800,
-			"learnmode": {
-				"image": "/drivers/MT2652/assets/learnmode.svg",
-				"instruction": {
-					"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
-					"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
+		{
+			"id": "014G0801",
+			"name": {
+				"en": "Radiator Thermostat",
+				"nl": "Radiatorthermostaat"
+			},
+			"zwave": {
+				"manufacturerId": 2,
+				"productTypeId": 5,
+				"productId": 373,
+				"wakeUpInterval": 1800,
+				"learnmode": {
+					"image": "drivers/014G0801/assets/learnmode.svg",
+					"instruction": {
+						"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
+						"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
+					}
+				},
+				"associationGroups": 1
+			},
+			"class": "thermostat",
+			"capabilities": [
+				"target_temperature",
+				"measure_temperature",
+				"measure_battery"
+			],
+			"capabilitiesOptions": {
+				"target_temperature": {
+					"min": 4,
+					"max": 28
 				}
 			},
-			"associationGroups": [
-				1,
-				2,
-				3,
-				4,
-				5
+			"images": {
+				"small": "drivers/014G0801/assets/images/small.jpg",
+				"large": "drivers/014G0801/assets/images/large.jpg"
+			}
+		},
+		{
+			"id": "MT2653",
+			"name": {
+				"en": "Home Control Keyfob"
+			},
+			"zwave": {
+				"manufacturerId": [
+					373
+				],
+				"productTypeId": [
+					769
+				],
+				"productId": [
+					769
+				],
+				"learnmode": {
+					"instruction": {
+						"en": "When in factory default push Button 3 (secure) or Button 4 (normal) for one second to enter inclusion mode. The inclusion mode is indicated by a blinking green LED. From second device on you need to enter management mode  push all four buttons together for one second - green led blinks slowly), hit button 3 ( enter primary controller functions - green led blinks faster) and then button 1 (secure) or button 2 (normal)."
+					}
+				},
+				"associationGroups": [
+					1,
+					2,
+					3,
+					4,
+					5
+				],
+				"associationGroupsOptions": {
+					"1": {
+						"hint": {
+							"en": "Z-Wave Plus Lifeline"
+						}
+					},
+					"2": {
+						"hint": {
+							"en": "Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"
+						}
+					},
+					"3": {
+						"hint": {
+							"en": "Control Group B, controlled by button 2 or single clicks of buttons 2 and 4 "
+						}
+					},
+					"4": {
+						"hint": {
+							"en": "Control Group C, controlled by button 3 or double clicks of buttons 1 and 3"
+						}
+					},
+					"5": {
+						"hint": {
+							"en": "Control Group D, controlled by button 4 or double clicks of buttons 2 and 4"
+						}
+					}
+				}
+			},
+			"mobile": {
+				"compontents": [
+					{
+						"id": "icon"
+					},
+					{
+						"id": "battery",
+						"capabilities": [
+							"measure_battery"
+						]
+					}
+				]
+			},
+			"class": "light",
+			"capabilities": [
+				"measure_battery"
+			],
+			"settings": [
+		    {
+		      "id": "1",
+		      "value": "1",
+		      "label": {
+		        "en": "Button 1 and 3 pair mode"
+		      },
+		      "hint": {
+		        "en": "In separate mode button 1 works with group A, button 3 with groups C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button 1/3 are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group A, double click with group C."
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "seperately"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "In pair without double clicks"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "In pair with double clicks"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "11",
+		      "value": "8",
+		      "label": {
+		        "en": "Command to Control Group A"
+		      },
+		      "hint": {
+		        "en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Disabled"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch On/Off only (send Basic Set)"
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "Switch All"
+		          }
+		        },
+		        {
+		          "id": "4",
+		          "label": {
+		            "en": "Send Scenes"
+		          }
+		        },
+		        {
+		          "id": "5",
+		          "label": {
+		            "en": "Send Preconfigured Scenes"
+		          }
+		        },
+		        {
+		          "id": "6",
+		          "label": {
+		            "en": "Control DoorLock"
+		          }
+		        },
+		        {
+		          "id": "7",
+		          "label": {
+		            "en": "Central Scene to Gateway"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "12",
+		      "value": "8",
+		      "label": {
+		        "en": "Command to Control Group B"
+		      },
+		      "hint": {
+		        "en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Disabled"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch On/Off only (send Basic Set)"
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "Switch All"
+		          }
+		        },
+		        {
+		          "id": "4",
+		          "label": {
+		            "en": "Send Scenes"
+		          }
+		        },
+		        {
+		          "id": "5",
+		          "label": {
+		            "en": "Send Preconfigured Scenes"
+		          }
+		        },
+		        {
+		          "id": "6",
+		          "label": {
+		            "en": "Control DoorLock"
+		          }
+		        },
+		        {
+		          "id": "7",
+		          "label": {
+		            "en": "Central Scene to Gateway "
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "13",
+		      "value": "8",
+		      "label": {
+		        "en": "Command to Control Group C"
+		      },
+		      "hint": {
+		        "en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Disabled"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch On/Off only (send Basic Set)"
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "Switch All"
+		          }
+		        },
+		        {
+		          "id": "4",
+		          "label": {
+		            "en": "Send Scenes"
+		          }
+		        },
+		        {
+		          "id": "5",
+		          "label": {
+		            "en": "Send Preconfigured Scenes"
+		          }
+		        },
+		        {
+		          "id": "6",
+		          "label": {
+		            "en": "Control DoorLock"
+		          }
+		        },
+		        {
+		          "id": "7",
+		          "label": {
+		            "en": "Central Scene to Gateway "
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "14",
+		      "value": "8",
+		      "label": {
+		        "en": "Command to Control Group D"
+		      },
+		      "hint": {
+		        "en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Disabled"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch On/Off only (send Basic Set)"
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "Switch All"
+		          }
+		        },
+		        {
+		          "id": "4",
+		          "label": {
+		            "en": "Send Scenes"
+		          }
+		        },
+		        {
+		          "id": "5",
+		          "label": {
+		            "en": "Send Preconfigured Scenes"
+		          }
+		        },
+		        {
+		          "id": "6",
+		          "label": {
+		            "en": "Control DoorLock"
+		          }
+		        },
+		        {
+		          "id": "7",
+		          "label": {
+		            "en": "Central Scene to Gateway "
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "2",
+		      "value": "1",
+		      "label": {
+		        "en": "Button 2 and 4 pair mode "
+		      },
+		      "hint": {
+		        "en": "In separate mode button 2 works with control group B, button 4 with control group D. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B, double click with group D."
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "seperately"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "In pair without double clicks"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "In pair with double clicks"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "21",
+		      "value": "1",
+		      "label": {
+		        "en": "Send the following Switch All commands "
+		      },
+		      "hint": {
+		        "en": {}
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Switch all on and off"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Switch off only"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch on only"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "22",
+		      "value": "0",
+		      "label": {
+		        "en": "Invert buttons"
+		      },
+		      "hint": {
+		        "en": {}
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "No"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Yes"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "25",
+		      "value": "1",
+		      "label": {
+		        "en": "Blocks wakeup even when wakeup interval is set"
+		      },
+		      "hint": {
+		        "en": {}
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Wakeup is blocked"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Wakeup is not blocked"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "30",
+		      "value": "0",
+		      "label": {
+		        "en": "Send unsolicited Battery Report on Wake Up"
+		      },
+		      "hint": {
+		        "en": {}
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "No"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "To same node as wake up notification"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Broadcast"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    }
+		  ]
+		},
+		{
+			"id": "MT2647",
+			"name": {
+				"en": "Motion Sensor"
+			},
+			"zwave": {
+				"manufacturerId": [
+					373
+				],
+				"productTypeId": [
+					13
+				],
+				"productId": [
+					13
+				],
+				"learnmode": {
+					"instruction": {
+						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
+					}
+				},
+				"associationGroups": [
+					1,
+					2
+				],
+				"associationGroupsOptions": {
+					"1": {
+						"hint": {
+							"en": "Z-Wave Plus Lifeline"
+						}
+					},
+					"2": {
+						"hint": {
+							"en": "Using the \"Basic Set\" for lighting control."
+						}
+					}
+				}
+			},
+			"class": "sensor",
+			"capabilities": [
+				"alarm_motion",
+				"alarm_tamper",
+				"measure_luminance_level",
+				"measure_temperature",
+				"measure_battery"
+			],
+			"images": {
+				"large": "/drivers/MT2647/assets/images/large.png",
+				"small": "/drivers/MT2647/assets/images/small.png"
+			},
+			"mobile": {
+				"compontents": [
+					{
+						"id": "icon"
+					},
+					{
+						"id": "battery",
+						"capabilities": [
+							"measure_battery"
+						]
+					},
+					{
+						"id": "sensor",
+						"capabilities": [
+							"alarm_motion",
+							"measure_luminance_level",
+							"measure_temperature",
+							"alarm_tamper"
+						]
+					}
+				]
+			},
+			"settings": [
+				{
+					"id": "basic_set_level",
+					"type": "number",
+					"attr": {
+						"min": 0,
+						"max": 255
+					},
+					"label": {
+						"en": "Basic Set Level",
+						"nl": "Basic Set waarde"
+					},
+					"hint": {
+						"en": "Setting the BASIC command value to turn on the light(s). The 255 means turn on the light. For dimmer equipment 1 to 99 means the light strength.",
+						"nl": "De waarde die wordt gestuurd tijdens het BASIC commando om het licht aan te zetten. Waarde 255 is verlichting Aan. Voor dimmers kan het bereik 1 - 99 worden gebruikt om de dim-sterkte in te stellen."
+					},
+					"value": 255
+				},
+				{
+					"id": "pir_sensitivity",
+					"type": "number",
+					"attr": {
+						"min": 0,
+						"max": 99
+					},
+					"label": {
+						"en": "Motion Sensitivity",
+						"nl": "Beweging Gevoeligheid"
+					},
+					"hint": {
+						"en": "High sensitivity means can detected long distance, but if there is more noise signal in the environment, it will re-trigger too frequency. Range: 0 (Off), 1 - 99.",
+						"nl": "Hoge sensitivity kan een grotere afstand overbruggen, maar gaat ook vaker af indien er meer ruis in de omgeving is. Bereik: 0 (Uit), 1 - 99."
+					},
+					"value": 70
+				},
+				{
+					"id": "turn_off_light_time",
+					"type": "number",
+					"attr": {
+						"min": 24,
+						"max": 1016,
+						"step": 8
+					},
+					"value": 32,
+					"label": {
+						"en": "Motion alarm cancellation delay",
+						"nl": "Bewegingsalarm annuleringsperiode"
+					},
+					"hint": {
+						"en": "Motion alarm cancellation and Turn lights off (Off command to Association Group 2) after these amount of seconds, in steps of 8 seconds. Range: 24 - 1016",
+						"nl": "Bewegings alarm annulering and Zet verlichting uit (Uit commando naar Associatie Groep 2) na deze hoeveelheid seconden, in stappen van 8 seconden. Bereik: 24 - 1016"
+					}
+				},
+				{
+					"id": "light_sensitivity",
+					"type": "number",
+					"attr": {
+						"min": 0,
+						"max": 100
+					},
+					"label": {
+						"en": "Motion, Brightness Threshold",
+						"nl": "Beweging, Helderheid Drempel"
+					},
+					"hint": {
+						"en": "The illummination threshold (in percentage) to turn on the light on movement (Association Group 2). Range: 0 (Off, never turn on light), 1 - 99, 100 (Always turn light on). Only in 1 - 99 range it will update lux value",
+						"nl": "De drempelwaarde (in percentage) voor de lichtsensor om het licht aan te schakelen bij beweging (Associatie Groep 2). Bereik: 0 (Uit, zet nooit licht aan), 1 - 99 , 100 (Zet altijd licht aan). Alleen in het 1 - 99 bereik zal de lux waarde worden geupdate"
+					},
+					"value": 99
+				},
+				{
+					"id": "test_mode",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Test Mode",
+						"nl": "Test Modus"
+					},
+					"hint": {
+						"en": "Should the sensor be in test mode, or be in operation mode",
+						"nl": "Moet de sensor in test modus zijn, of in werking modus zijn."
+					}
+				},
+				{
+					"id": "operation_mode",
+					"type": "dropdown",
+					"value": "0",
+					"values": [
+						{
+							"id": "0",
+							"label": {
+								"en": "Home Automation Mode",
+								"nl": "Huis Automatisering Modus"
+							}
+						},
+						{
+							"id": "1",
+							"label": {
+								"en": "Security Mode",
+								"nl": "Beveiliging Modus"
+							}
+						}
+					],
+					"label": {
+						"en": "Operation Mode",
+						"nl": "Werking Modus"
+					},
+					"hint": {
+						"en": "Security = Always send Motion Alarms & Selectable PIR sleep timer. Home Automation = Motion on lux treshold & PIR inactive for 6 seconds.",
+						"nl": "Beveiliging = Altijd beweging melden & selecteerbare inactieve beweging timer. Huis Automatisering = Beweging onder Lux Drempel & Beweging inactief voor 6 seconden."
+					}
+				},
+				{
+					"id": "door/window_mode",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Disable Door/Window Sensor",
+						"nl": "Deactiveer Deur/Raam Sensor"
+					},
+					"hint": {
+						"en": "Should the sensor have the door/window sensor be disabled. (only used in STM02)",
+						"nl": "Moet de sensor de deur/raam sensor deactief zijn. (Alleen gebruikt in STM02)"
+					}
+				},
+				{
+					"id": "temperature_monitoring",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Enable temperature monitoring",
+						"nl": "Activeer temperatuur monitoring"
+					},
+					"hint": {
+						"en": "When enabled, it will report whenever the temperature has changed 1.5 degree Celcius. If the temperature is over 60 degrees Celcius, it will report every 64 seconds.",
+						"nl": "Indien ingeschakeld dan stuurt het een temperatuur rapport als de temperatuur anderhalve graad Celcius wijzigt. Als het warmer is als 60 graden Celcius dan stuurt het iedere 64 seconden een temperatuurrapport."
+					}
+				},
+				{
+					"id": "pir_redetect_interval_time",
+					"type": "number",
+					"attr": {
+						"min": 24,
+						"max": 1016,
+						"step": 8
+					},
+					"value": 24,
+					"label": {
+						"en": "PIR Re-detect Interval",
+						"nl": "Beweging Detectie Interval"
+					},
+					"hint": {
+						"en": "Mode: Home Automation always 6 seconds, Security mode: Determain the amount of seconds the PIR sensor will not respond after motion was detected, in steps of 8 seconds. Range: 24 - 1016",
+						"nl": "Modus: Huis Automatisering altijd 6 seconden, Beveiliging mode: Bepaal het aantal seconden dat de beweging sensor niet reageerd na een beweging detectie, in stappen van 8 seconden. Bereik: 24 - 1016"
+					}
+				},
+				{
+					"id": "battery_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Battery Level Report Interval",
+						"nl": "Batterijniveau Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report the actual battery level. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over het actuele batterij niveau. Bereik: 0,5 - 63,5"
+					},
+					"value": 6
+				},
+				{
+					"id": "illumination_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Illumination Report Interval",
+						"nl": "Helderheid Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report of the illumination. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over de gemeten helderheid. Bereik: 0,5 - 63,5"
+					},
+					"value": 2
+				},
+				{
+					"id": "temperature_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Temperature Report Interval",
+						"nl": "Temperatuur Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report of the temperature. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over de temperatuur. Bereik: 0,5 - 63,5"
+					},
+					"value": 2
+				}
+			]
+		 },
+		{
+			"id": "MT2648",
+			"name": {
+				"en": "Door/Window Contact"
+			},
+			"zwave": {
+				"manufacturerId": [
+					373
+				],
+				"productTypeId": [
+					14
+				],
+				"productId": [
+					14
+				],
+				"learnmode": {
+					"instruction": {
+						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
+					}
+				},
+				"associationGroups": [
+					1,
+					2
+				],
+				"associationGroupsOptions": {
+					"1": {
+						"hint": {
+							"en": "Z-Wave Plus Lifeline"
+						}
+					},
+					"2": {
+						"hint": {
+							"en": "Uses the \"Basic Set\" for control of other Z-Wave devices."
+						}
+					}
+				}
+			},
+			"class": "sensor",
+			"capabilities": [
+				"alarm_contact",
+				"alarm_tamper",
+				"measure_luminance_level",
+				"measure_temperature",
+				"measure_battery"
+			],
+			"images": {
+				"large": "/drivers/MT2648/assets/images/large.png",
+				"small": "/drivers/MT2648/assets/images/small.png"
+			},
+			"mobile": {
+				"compontents": [
+					{
+						"id": "icon"
+					},
+					{
+						"id": "battery",
+						"capabilities": [
+							"measure_battery"
+						]
+					},
+					{
+						"id": "sensor",
+						"capabilities": [
+							"alarm_contact",
+							"measure_luminance_level",
+							"measure_temperature",
+							"alarm_tamper"
+						]
+					}
+				]
+			},
+				"settings": [
+				{
+					"id": "basic_set_level",
+					"type": "number",
+					"attr": {
+						"min": 0,
+						"max": 255
+					},
+					"label": {
+						"en": "Basic Set Level",
+						"nl": "Basic Set waarde"
+					},
+					"hint": {
+						"en": "Setting the BASIC command value to turn on the light(s). The 255 means turn on the light. For dimmer equipment 1 to 99 means the light strength.",
+						"nl": "De waarde die wordt gestuurd tijdens het BASIC commando om het licht aan te zetten. Waarde 255 is verlichting Aan. Voor dimmers kan het bereik 1 - 99 worden gebruikt om de dim-sterkte in te stellen."
+					},
+					"value": 255
+				},
+				{
+					"id": "turn_off_light_time",
+					"type": "number",
+					"attr": {
+						"min": 24,
+						"max": 1016,
+						"step": 8
+					},
+					"value": 32,
+					"label": {
+						"en": "Motion alarm cancellation delay",
+						"nl": "Bewegingsalarm annuleringsperiode"
+					},
+					"hint": {
+						"en": "Motion alarm cancellation and Turn lights off (Off command to Association Group 2) after these amount of seconds, in steps of 8 seconds. Range: 24 - 1016",
+						"nl": "Bewegings alarm annulering and Zet verlichting uit (Uit commando naar Associatie Groep 2) na deze hoeveelheid seconden, in stappen van 8 seconden. Bereik: 24 - 1016"
+					}
+				},
+				{
+					"id": "light_sensitivity",
+					"type": "number",
+					"attr": {
+						"min": 0,
+						"max": 100
+					},
+					"label": {
+						"en": "Motion, Brightness Threshold",
+						"nl": "Beweging, Helderheid Drempel"
+					},
+					"hint": {
+						"en": "The illummination threshold (in percentage) to turn on the light on movement (Association Group 2). Range: 0 (Off, never turn on light), 1 - 99, 100 (Always turn light on). Only in 1 - 99 range it will update lux value",
+						"nl": "De drempelwaarde (in percentage) voor de lichtsensor om het licht aan te schakelen bij beweging (Associatie Groep 2). Bereik: 0 (Uit, zet nooit licht aan), 1 - 99 , 100 (Zet altijd licht aan). Alleen in het 1 - 99 bereik zal de lux waarde worden geupdate"
+					},
+					"value": 99
+				},
+				{
+					"id": "test_mode",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Test Mode",
+						"nl": "Test Modus"
+					},
+					"hint": {
+						"en": "Should the sensor be in test mode, or be in operation mode",
+						"nl": "Moet de sensor in test modus zijn, of in werking modus zijn."
+					}
+				},
+				{
+					"id": "operation_mode",
+					"type": "dropdown",
+					"value": "0",
+					"values": [
+						{
+							"id": "0",
+							"label": {
+								"en": "Home Automation Mode",
+								"nl": "Huis Automatisering Modus"
+							}
+						},
+						{
+							"id": "1",
+							"label": {
+								"en": "Security Mode",
+								"nl": "Beveiliging Modus"
+							}
+						}
+					],
+					"label": {
+						"en": "Operation Mode",
+						"nl": "Werking Modus"
+					},
+					"hint": {
+						"en": "Security = Always send Motion Alarms & Selectable PIR sleep timer. Home Automation = Motion on lux treshold & PIR inactive for 6 seconds.",
+						"nl": "Beveiliging = Altijd beweging melden & selecteerbare inactieve beweging timer. Huis Automatisering = Beweging onder Lux Drempel & Beweging inactief voor 6 seconden."
+					}
+				},
+				{
+					"id": "door/window_mode",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Disable Door/Window Sensor",
+						"nl": "Deactiveer Deur/Raam Sensor"
+					},
+					"hint": {
+						"en": "Should the sensor have the door/window sensor be disabled. (only used in STM02)",
+						"nl": "Moet de sensor de deur/raam sensor deactief zijn. (Alleen gebruikt in STM02)"
+					}
+				},
+				{
+					"id": "temperature_monitoring",
+					"type": "checkbox",
+					"value": false,
+					"label": {
+						"en": "Enable temperature monitoring",
+						"nl": "Activeer temperatuur monitoring"
+					},
+					"hint": {
+						"en": "When enabled, it will report whenever the temperature has changed 1.5 degree Celcius. If the temperature is over 60 degrees Celcius, it will report every 64 seconds.",
+						"nl": "Indien ingeschakeld dan stuurt het een temperatuur rapport als de temperatuur anderhalve graad Celcius wijzigt. Als het warmer is als 60 graden Celcius dan stuurt het iedere 64 seconden een temperatuurrapport."
+					}
+				},
+				{
+					"id": "battery_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Battery Level Report Interval",
+						"nl": "Batterijniveau Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report the actual battery level. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over het actuele batterij niveau. Bereik: 0,5 - 63,5"
+					},
+					"value": 6
+				},
+				{
+					"id": "contact_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Door/Window Report Interval",
+						"nl": "Deur/Raam Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report of the actual door/window state. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over de actuele deur/raam status. Bereik: 0,5 - 63,5"
+					},
+					"value": 6
+				},
+				{
+					"id": "illumination_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Illumination Report Interval",
+						"nl": "Helderheid Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report of the illumination. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over de gemeten helderheid. Bereik: 0,5 - 63,5"
+					},
+					"value": 2
+				},
+				{
+					"id": "temperature_report_time",
+					"type": "number",
+					"attr": {
+						"min": 0.5,
+						"max": 63.5,
+						"step": 0.5
+					},
+					"label": {
+						"en": "Temperature Report Interval",
+						"nl": "Temperatuur Verzend Interval"
+					},
+					"hint": {
+						"en": "The interval time (in hours) for auto report of the temperature. Range: 0.5 - 63.5",
+						"nl": "Een vast interval (in uren) om een rapport te sturen over de temperatuur. Bereik: 0,5 - 63,5"
+					},
+					"value": 2
+				}
 			]
 		},
-		"class": "light",
-		"capabilities": [
-			"measure_battery"
-		],
-		"images": {
-			"large": "/drivers/MT2652/assets/images/large.png",
-			"small": "/drivers/MT2652/assets/images/small.png"
+		{
+			"id": "MT2792",
+			"name": {
+				"en": "Home Control Smart Metering Plug"
+			},
+			"zwave": {
+				"manufacturerId": [
+					373
+				],
+				"productTypeId": [
+					0
+				],
+				"productId": [
+					0
+				],
+				"learnmode": {
+					"instruction": {
+						"en": "The Home Control Smart Metering Plug can be included using two different procedures:\r\n\r\nVariant A: Auto Inclusion with the control unit\r\n1. In the Z-Wave-compatible control unit, start the procedure for adding a new device automatically.\r\n2. Plug the Home Control Smart Metering Plug into an available power socket. The Auto Inclusion is run.\r\nDuring the 2-minute timeout of the Auto Inclusion, Node Information Frames are sent within a few seconds. In the auto inclusion, it is not necessary to press the ON/OFF button.\r\n\r\nVariant B: Manual Inclusion with the control unit\r\nIf the time frame (2 minutes) of the Auto Inclusion procedure is exceeded, you can also include the Home Control Smart Metering Plug with the control unit manually.\r\n1. In the Z-Wave -compatible control unit, start the procedure for adding a new device (inclusion).\r\n2. Press the button of the connected Smart Metering Plug 3x within 1.2 seconds to start the inclusion process with the Z-Wave-compatible control unit."
+					}
+				},
+				"associationGroups": [
+					1
+				],
+				"associationGroupsOptions": {
+					"1": {
+						"hint": {
+							"en": "As the default, the node with the ID 1 is entered in this group. This corresponds to the controller ID. For this association group 1, the Home Control Smart Metering Plug reports the status of the following command classes:\r\nSWITCH_BINARY_REPORT\r\nMETER_REPORT\r\nALARM_REPORT"
+						}
+					}
+				}
+			},
+			"class": "socket",
+			"capabilities": [
+				"onoff",
+				"measure_power",
+				"meter_power"
+			],
+			"images": {
+				"large": "/drivers/MT2792/assets/images/large.png",
+				"small": "/drivers/MT2792/assets/images/small.png"
+			},
+			"settings": [
+		    {
+		      "id": "1",
+		      "value": "720",
+		      "label": {
+		        "en": "Watt Meter Report Period"
+		      },
+		      "hint": {
+		        "en": "If 1 hour is set (target value =720), the Home Control Smart Metering Plug reports its power consumption at the current time every hour to the Node ID of Group 1. The maximum reporting period is 45 hours\n(5s*32767/3600=45hr).\n"
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 1,
+		        "max": 32767
+		      }
+		    },
+		    {
+		      "id": "2",
+		      "value": "6",
+		      "label": {
+		        "en": "KWh Report Period"
+		      },
+		      "hint": {
+		        "en": "If 1 hour is set (target value =6), the Home Control Smart Metering Plug reports its accumulated power consumption every hour to the Node ID of Group 1. The maximum reporting period is\n227.55 days (10s*32767/1440=227.55 days).\n\n"
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 1,
+		        "max": 32767
+		      }
+		    },
+		    {
+		      "id": "3",
+		      "value": "1300",
+		      "label": {
+		        "en": "Threshold of current for Load caution "
+		      },
+		      "hint": {
+		        "en": "If the current load exceeds the defined value, the Home Control Smart Metering Plug sends a meter message to the Node ID of Group 1. \n"
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 10,
+		        "max": 1300
+		      }
+		    },
+		    {
+		      "id": "4",
+		      "value": "10000",
+		      "label": {
+		        "en": "Threshold of KWh for Load caution"
+		      },
+		      "hint": {
+		        "en": "If the kW load exceeds the defined value (default value: 10,000, for an elevated accumulated power consumption), the Home Control Smart Metering Plug sends a meter message to the Node ID 1.\n"
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 1,
+		        "max": 10000
+		      }
+		    },
+		    {
+		      "id": "5",
+		      "value": "1",
+		      "label": {
+		        "en": "Restore switch state mode "
+		      },
+		      "hint": {
+		        "en": "If the Home Control Smart Metering Plug is disconnected from the mains power supply and then reconnected to the mains power supply, depending on the configuration, it will trigger the Switch OFF, set the Last Switch State or set the Switch ON. The default setting is always the last switch state.\n\n"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Switch off"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Last switch state"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch on"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "6",
+		      "value": "1",
+		      "label": {
+		        "en": "Mode of Switch OFF function "
+		      },
+		      "hint": {
+		        "en": "If Switch ON/OFF is set to 0, both the Switch OFF command and the ON/OFF button are disabled. The default setting is the enable switching.\n"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Disable"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Enable"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "7",
+		      "value": "1",
+		      "label": {
+		        "en": "LED indication mode"
+		      },
+		      "hint": {
+		        "en": "1 Display device status\nWhen the Home Control Smart Metering Plug is switched on, the LED is on; when the Home Control Smart Metering Plug is switched off, the LED is off. In the default setting, the device status is displayed.\n\n2 Show nighttime mode:\nWhen the Home Control Smart Metering Plug is switched on, the LED is off; when the Home Control Smart Metering Plug is switched off, the LED is on.\n\n3 One-flash mode:\nIf the device status changes, the LED flashes briefly (1 sec.) and then goes out.\n\n"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Show switch state"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Show night mode"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "One flash mode"
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "8",
+		      "value": "0",
+		      "label": {
+		        "en": "Auto off timer "
+		      },
+		      "hint": {
+		        "en": "If the Home Control Smart Metering Plug switches to ON, the auto-off timer starts counting down. After the timer is set to zero, the device shuts off automatically. If the auto-off timer function is set to 0, it is disabled.\n\n"
+		      },
+					"attr": {
+						"min": 0,
+						"max": 32767
+					},
+		      "type": "number"
+		    },
+		    {
+		      "id": "9",
+		      "value": "0",
+		      "label": {
+		        "en": "RF off command mode "
+		      },
+		      "hint": {
+		        "en": "If the command Switch OFF BASIC_SET 、BINARY_SWITCH_SET 、SWITCH_ALL_OFF is received, this can be interpreted in four different ways:\n0. Switch OFF:\nThe Home Control Smart Metering Plug switches itself off (default setting).\n\n1. Ignore:\nThe command Switch OFF is ignored.\n\n2. Switch device:\nThe Home Control Smart Metering Plug switches to the opposite state.\n\n3. Switch ON:\nThe Home Control Smart Metering Plug switches itself on.\n"
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Switch off"
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Ignore"
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Switch toggle"
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "Switch on "
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    }
+		  ]
 		},
-		"settings": [{
-			"id": "button_1_and_3_pair_mode",
-			"type": "dropdown",
-			"label": {
-				"en": "Button 1 and 3 pair mode"
+		{
+			"id": "MT2646",
+			"name": {
+				"en": "Metering Plug"
 			},
-			"value": "1",
-			"hint": {
-				"en": "The parameter determines the behaviour of buttons 1 and 3."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Seperately, In separate mode button 1 works with control group A, button 3 with control group C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. "
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Pair without double clicks, In pair button A/C are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B and D"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Pair with double clicks. In pair button A/C are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
-				}
-			}]
-		}, {
-			"id": "button_2_and_4_pair_mode",
-			"type": "dropdown",
-			"label": {
-				"en": "Button 2 and 4 pair mode"
-			},
-			"value": "1",
-			"hint": {
-				"en": "The parameter determines the behaviour of buttons 2 and 4."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Seperately, In separate mode button 2 works with control group B, button 4 with control group D. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. "
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Pair without double clicks, In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B and D"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Pair with double clicks. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_a",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group A"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_b",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group B"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_c",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group C"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_d",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group D"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "send_the_following_switch_sll_commands",
-			"type": "dropdown",
-			"label": {
-				"en": "Switch All commands"
-			},
-			"value": "1",
-			"hint": {
-				"en": "Send the following Switch All commands."
-			},
-			"values": [{
-				"id": "1",
-				"label": {
-					"en": "(1) Switch off only. (Default)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Switch on only."
-				}
-			}, {
-				"id": "255",
-				"label": {
-					"en": "(255) Switch all on and off"
-				}
-			}]
-		}, {
-			"id": "invert_buttons",
-			"type": "checkbox",
-			"label": {
-				"en": "Invert buttons"
-			},
-			"value": false,
-			"hint": {
-				"en": "Invert the behaviour of the buttons."
-			}
-
-		}, {
-			"id": "blocks_wakeup_even_when_wakeup_interval_is_set",
-			"type": "dropdown",
-			"label": {
-				"en": "Blocks wakeup even when wakeup interval is set."
-			},
-			"value": "1",
-			"hint": {
-				"en": "If the device wakes up and there is no controller nearby, several unsuccessful communication attempts will drain battery."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Wakeup is blocked"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Wakeup is possible if configured accordingly. (Default)"
-				}
-			}]
-		}, {
-			"id": "send_unsolicited_battery_report_on_wake_up",
-			"type": "dropdown",
-			"label": {
-				"en": "Send unsolicited Battery Report on Wake Up "
-			},
-			"value": "1",
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) No."
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) To same node as wake up notification. (Default)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Broadcast to neighbours."
-				}
-			}]
-		}]
-	}, {
-		"id": "014G0801",
-		"name": {
-			"en": "Radiator Thermostat",
-			"nl": "Radiatorthermostaat"
-		},
-		"zwave": {
-			"manufacturerId": 2,
-			"productTypeId": 5,
-			"productId": 373,
-			"wakeUpInterval": 1800,
-			"learnmode": {
-				"image": "drivers/014G0801/assets/learnmode.svg",
-				"instruction": {
-					"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
-					"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
+			"zwave": {
+				"manufacturerId": [
+					373
+				],
+				"productTypeId": [
+					17
+				],
+				"productId": [
+					17
+				],
+				"learnmode": {
+					"instruction": {
+						"en": "1.  Put your Z-Wave controller into inclusion mode by following the instructions provided by the controller manufacturer. \n2.  Pressing On/Off button three times within 2 seconds will enter inclusion \n     mode on the switch. "
+					}
+				},
+				"associationGroups": [
+					1
+				],
+				"associationGroupsOptions": {
+					"1": {
+						"hint": {
+							"en": "Z-Wave Plus Lifeline"
+						}
+					}
 				}
 			},
-			"associationGroups": 1
-		},
-		"class": "thermostat",
-		"capabilities": [
-			"target_temperature",
-			"measure_temperature",
-			"measure_battery"
-		],
-		"capabilitiesOptions": {
-			"target_temperature": {
-				"min": 4,
-				"max": 28
-			}
-		},
-		"images": {
-			"small": "drivers/014G0801/assets/images/small.jpg",
-			"large": "drivers/014G0801/assets/images/large.jpg"
+			"class": "socket",
+			"capabilities": [
+				"onoff",
+				"measure_power",
+				"meter_power"
+			],
+			"images": {
+				"large": "/drivers/MT2646/assets/images/large.png",
+				"small": "/drivers/MT2646/assets/images/small.png"
+			},
+			"settings": [
+		    {
+		      "id": "1",
+		      "value": "720",
+		      "label": {
+		        "en": "Watt Meter Report Period"
+		      },
+		      "hint": {
+		        "en": "This configuration parameter determines how often meter reporting of instantaneous watt usage is reported automatically.  Each unit is 5 seconds.    The maximum interval to report its instant power consumption is 45 hours (5s*32767/3600=45hr)."
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 0,
+		        "max": 32767
+		      }
+		    },
+		    {
+		      "id": "2",
+		      "value": "6",
+		      "label": {
+		        "en": "KWH Meter Report Period:"
+		      },
+		      "hint": {
+		        "en": "This parameter controls the frequency at which the kWh value of the meter is reported to the node in association group 1.  This setting is in units of 10 minutes. The maximum interval to report its Accumulated Power Consumption (KW/h) is 227.55 days (10min*32767/1440=227.55 days)."
+		      },
+					"type": "number",
+		      "attr": {
+		        "min": 0,
+		        "max": 32767
+		      }
+		    },
+		    {
+		      "id": "3",
+		      "value": "1300",
+		      "label": {
+		        "en": "Threshold of current for Load Caution"
+		      },
+		      "hint": {
+		        "en": "This is a warning when the current of load over the preset threshold value, if the setting value is 1300, when the load current of Relay1 over this value, Home Control Metering Plug will send current meter report to warn the Group1 node, the Range of the setting value is from 10 to 1300,and the default value is 1300."
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 10,
+		        "max": 1300
+		      }
+		    },
+		    {
+		      "id": "4",
+		      "value": "10000",
+		      "label": {
+		        "en": "Threshold of KWh for Load Caution"
+		      },
+		      "hint": {
+		        "en": "This is a warning when the KWh of load over the preset threshold value, If the \nsetting value is 10000, when the Accumulated Power Consumption of Relay1 over this value, Home Control Metering Plug will send KWH meter report to warn the Group1 node, \nminimum value is 1KWh and default value is 10000 kWh."
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 1,
+		        "max": 10000
+		      }
+		    },
+		    {
+		      "id": "5",
+		      "value": "1",
+		      "label": {
+		        "en": "Restore switch state mode"
+		      },
+		      "hint": {
+		        "en": "Whenever the AC power return from lost, Home Control Metering Plug will restore the switch state which could be SWITCH OFF、LAST SWITCH STATE、SWITCH ON. The default setting is LAST SWITCH STATE. "
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "Upon the return of AC power, the switch will remain Off."
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Upon the return of AC power, the switch will return to the state it was in when the power was turned off."
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Upon the return of AC power, the switch will turn On."
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "6",
+		      "value": "1",
+		      "label": {
+		        "en": "Mode of switch off function"
+		      },
+		      "hint": {
+		        "en": "This configuration parameter determines how the switch will respond to a received SWITCH OFF command."
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "SWITCH OFF commands received are ignored."
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "SWITCH OFF commands received are honored."
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "7",
+		      "value": "1",
+		      "label": {
+		        "en": "LED indication mode"
+		      },
+		      "hint": {
+		        "en": "This parameter determines the state of the LED display."
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "The LED follows the state of the switch."
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "Night Mode - When the switch is On, the LED is Off, and when the switch is Off, the LED is On."
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "Flash Mode - When the state of the switch changes, the LED will be on for one second and then will turn off."
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    },
+		    {
+		      "id": "8",
+		      "value": "0",
+		      "label": {
+		        "en": "Auto off timer"
+		      },
+		      "hint": {
+		        "en": "Automatic Shut-Off Setting.  This parameter determines the amount of time before the switch is automatically turned off after it has been turned on."
+		      },
+		      "type": "number",
+		      "attr": {
+		        "min": 0,
+		        "max": 32767
+		      }
+		    },
+		    {
+		      "id": "9",
+		      "value": "0",
+		      "label": {
+		        "en": "RF off command mode"
+		      },
+		      "hint": {
+		        "en": "This parameter determines how the switch responds to the receipt of a SWITCH_ALL_OFF command."
+		      },
+		      "values": [
+		        {
+		          "id": "0",
+		          "label": {
+		            "en": "When SWITCH ALL OFF is received, the MT02646 turns Off."
+		          }
+		        },
+		        {
+		          "id": "1",
+		          "label": {
+		            "en": "When SWITCH ALL OFF is received, the MT02646 ignores the command and does nothing."
+		          }
+		        },
+		        {
+		          "id": "2",
+		          "label": {
+		            "en": "When SWITCH ALL OFF is received, the MT02646 will turn On if it is Off, and will turn Off if it is On."
+		          }
+		        },
+		        {
+		          "id": "3",
+		          "label": {
+		            "en": "When SWITCH ALL OFF is received, the MT02646 turns On."
+		          }
+		        }
+		      ],
+		      "type": "dropdown"
+		    }
+		  ]
 		}
-	}, {
-		"id": "MT2653",
-		"name": {
-			"en": "Keyfob",
-			"nl": "Sleutelhanger afstandsbediening"
-		},
-		"zwave": {
-			"manufacturerId": 373,
-			"productTypeId": 256,
-			"productId": 258,
-			"wakeUpInterval": 1800,
-			"learnmode": {
-				"image": "/drivers/MT2653/assets/learnmode.svg",
-				"instruction": {
-					"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
-					"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de afstandsbediening."
-				}
-			},
-			"associationGroups": [
-				1,
-				2,
-				3,
-				4,
-				5
-			]
-		},
-		"class": "light",
-		"capabilities": [
-			"measure_battery"
-		],
-		"images": {
-			"large": "/drivers/MT2653/assets/images/large.png",
-			"small": "/drivers/MT2653/assets/images/small.png"
-		},
-		"settings": [{
-			"id": "button_1_and_3_pair_mode",
-			"type": "dropdown",
-			"label": {
-				"en": "Button 1 and 3 pair mode"
-			},
-			"value": "1",
-			"hint": {
-				"en": "The parameter determines the behaviour of buttons 1 and 3."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Seperately, In separate mode button 1 works with control group A, button 3 with control group C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. "
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Pair without double clicks, In pair button A/C are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B and D"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Pair with double clicks. In pair button A/C are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
-				}
-			}]
-		}, {
-			"id": "button_2_and_4_pair_mode",
-			"type": "dropdown",
-			"label": {
-				"en": "Button 2 and 4 pair mode"
-			},
-			"value": "1",
-			"hint": {
-				"en": "The parameter determines the behaviour of buttons 2 and 4."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Seperately, In separate mode button 2 works with control group B, button 4 with control group D. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. "
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Pair without double clicks, In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B and D"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Pair with double clicks. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B,double click with group D"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_a",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group A"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_b",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group B"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_c",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group C"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "command_to_control_group_d",
-			"type": "dropdown",
-			"label": {
-				"en": "Command to Control Group D"
-			},
-			"value": "8",
-			"hint": {
-				"en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Disabled"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(3) Switch On/Off only (send Basic Set)"
-				}
-			}, {
-				"id": "3",
-				"label": {
-					"en": "(3) Switch All"
-				}
-			}, {
-				"id": "4",
-				"label": {
-					"en": "(4) Send Scenes"
-				}
-			}, {
-				"id": "5",
-				"label": {
-					"en": "(5) Send Preconfigured Scenes"
-				}
-			}, {
-				"id": "7",
-				"label": {
-					"en": "(7) Control DoorLock"
-				}
-			}, {
-				"id": "8",
-				"label": {
-					"en": "(8) Central Scene to Gateway (Default)"
-				}
-			}]
-		}, {
-			"id": "send_the_following_switch_all_commands",
-			"type": "dropdown",
-			"label": {
-				"en": "Switch All commands"
-			},
-			"value": "1",
-			"hint": {
-				"en": "Send the following Switch All commands."
-			},
-			"values": [{
-				"id": "1",
-				"label": {
-					"en": "(1) Switch off only. (Default)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Switch on only."
-				}
-
-			}, {
-				"id": "255",
-				"label": {
-					"en": "(255) Switch all on and off"
-				}
-			}]
-		}, {
-			"id": "invert_buttons",
-			"type": "checkbox",
-			"label": {
-				"en": "Invert buttons"
-			},
-			"value": false,
-			"hint": {
-				"en": "Invert the behaviour of the buttons."
-			}
-
-		}, {
-			"id": "blocks_wakeup_even_when_wakeup_interval_is_set",
-			"type": "dropdown",
-			"label": {
-				"en": "Blocks wakeup even when wakeup interval is set."
-			},
-			"value": "1",
-			"hint": {
-				"en": "If the device wakes up and there is no controller nearby, several unsuccessful communication attempts will drain battery."
-			},
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) Wakeup is blocked"
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) Wakeup is possible if configured accordingly. (Default)"
-				}
-			}]
-		}, {
-			"id": "send_unsolicited_battery_report_on_wake_up",
-			"type": "dropdown",
-			"label": {
-				"en": "Send unsolicited Battery Report on Wake Up "
-			},
-			"value": "1",
-			"values": [{
-				"id": "0",
-				"label": {
-					"en": "(0) No."
-				}
-			}, {
-				"id": "1",
-				"label": {
-					"en": "(1) To same node as wake up notification. (Default)"
-				}
-			}, {
-				"id": "2",
-				"label": {
-					"en": "(2) Broadcast to neighbours."
-				}
-			}]
-		}]
-	}]
+	]
 }
