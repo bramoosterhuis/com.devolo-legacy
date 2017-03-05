@@ -874,6 +874,10 @@
 			"capabilities": [
 				"measure_battery"
 			],
+			"images": {
+				"small": "drivers/MT2653/assets/images/small.jpg",
+				"large": "drivers/MT2653/assets/images/large.jpg"
+			}
 			"settings": [
 		    {
 		      "id": "1",
