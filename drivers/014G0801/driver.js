@@ -80,7 +80,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 				};
 			},
 			command_report: 'THERMOSTAT_SETPOINT_REPORT',
-			command_report_parser: report => {
+			command_report_parser: report => {	
 				if (report.hasOwnProperty('Level2')
 					&& report.Level2.hasOwnProperty('Scale')
 					&& report.Level2.hasOwnProperty('Precision')
@@ -88,15 +88,15 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 					&& report.Level2['Size'] !== 'undefined'
 					&& typeof report['Value'].readUIntBE(0, report.Level2['Size']) !== 'undefined') {
 					return report['Value'].readUIntBE(0, report.Level2['Size']) / Math.pow(10, report.Level2['Precision']);
-				}
+					}					
 				return null;				
 			},
 			command_set: 'THERMOSTAT_SETPOINT_SET',
 			command_set_parser: function (value, node) {
-
+				// make temperature a whole number
 				module.exports.realtime(node.device_data, 'target_temperature', Math.round(value * 2) / 2);
 
-				// Create value buffer
+				// create 2 byte buffer of the value
 				let a = new Buffer(2);
 				a.writeUInt16BE(( Math.round(value * 2) / 2 * 10).toFixed(0));
 
