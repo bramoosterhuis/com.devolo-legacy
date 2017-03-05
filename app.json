@@ -1868,7 +1868,7 @@
 			"settings": [
 		    {
 		      "id": "1",
-		      "value": "720",
+		      "value": 720,
 		      "label": {
 		        "en": "Watt Meter Report Period"
 		      },
@@ -1883,7 +1883,7 @@
 		    },
 		    {
 		      "id": "2",
-		      "value": "6",
+		      "value": 6,
 		      "label": {
 		        "en": "KWh Report Period"
 		      },
@@ -1898,7 +1898,7 @@
 		    },
 		    {
 		      "id": "3",
-		      "value": "1300",
+		      "value": 1300,
 		      "label": {
 		        "en": "Threshold of current for Load caution "
 		      },
@@ -1913,7 +1913,7 @@
 		    },
 		    {
 		      "id": "4",
-		      "value": "10000",
+		      "value": 10000,
 		      "label": {
 		        "en": "Threshold of KWh for Load caution"
 		      },
@@ -2015,7 +2015,7 @@
 		    },
 		    {
 		      "id": "8",
-		      "value": "0",
+		      "value": 0,
 		      "label": {
 		        "en": "Auto off timer "
 		      },
@@ -2111,7 +2111,7 @@
 			"settings": [
 		    {
 		      "id": "1",
-		      "value": "720",
+		      "value": 720,
 		      "label": {
 		        "en": "Watt Meter Report Period"
 		      },
@@ -2126,7 +2126,7 @@
 		    },
 		    {
 		      "id": "2",
-		      "value": "6",
+		      "value": 6,
 		      "label": {
 		        "en": "KWH Meter Report Period:"
 		      },
@@ -2141,7 +2141,7 @@
 		    },
 		    {
 		      "id": "3",
-		      "value": "1300",
+		      "value": 1300,
 		      "label": {
 		        "en": "Threshold of current for Load Caution"
 		      },
@@ -2156,7 +2156,7 @@
 		    },
 		    {
 		      "id": "4",
-		      "value": "10000",
+		      "value": 10000,
 		      "label": {
 		        "en": "Threshold of KWh for Load Caution"
 		      },
@@ -2258,7 +2258,7 @@
 		    },
 		    {
 		      "id": "8",
-		      "value": "0",
+		      "value": 0,
 		      "label": {
 		        "en": "Auto off timer"
 		      },
