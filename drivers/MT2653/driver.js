@@ -37,48 +37,48 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
         }
     },
     settings: {
-    "1": {
-      "size": 1,
-      "index": 1
-    },
-    "2": {
-      "size": 1,
-      "index": 2
-    },
-    "11": {
-      "size": 1,
-      "index": 11
-    },
-    "12": {
-      "size": 1,
-      "index": 12
-    },
-    "13": {
-      "size": 1,
-      "index": 13
-    },
-    "14": {
-      "size": 1,
-      "index": 14
-    },
-    "21": {
-      "size": 1,
-      "index": 21
-    },
-    "22": {
-      "size": 1,
-      "index": 22
-    },
-    "25": {
-      "size": 1,
-      "index": 25
-    },
-    "30": {
-      "size": 1,
-      "index": 30
+      "1": {
+        "size": 1,
+        "index": 1
+      },
+      "2": {
+        "size": 1,
+        "index": 2
+      },
+      "11": {
+        "size": 1,
+        "index": 11
+      },
+      "12": {
+        "size": 1,
+        "index": 12
+      },
+      "13": {
+        "size": 1,
+        "index": 13
+      },
+      "14": {
+        "size": 1,
+        "index": 14
+      },
+      "21": {
+        "size": 1,
+        "index": 21
+      },
+      "22": {
+        "size": 1,
+        "index": 22
+      },
+      "25": {
+        "size": 1,
+        "index": 25
+      },
+      "30": {
+        "size": 1,
+        "index": 30
+      }
     }
-  }
-})
+});
 
 // bind Flow
 module.exports.on('initNode', function( token ){
@@ -104,4 +104,4 @@ module.exports.on('initNode', function( token ){
 			}
 		});
 	}
-})
+});

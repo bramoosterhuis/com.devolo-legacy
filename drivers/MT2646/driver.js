@@ -54,14 +54,14 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 			},
 		},
 	},
-	settings: [
-		"1": {
-	       "size": 1,
-	       "index": 1,
- 				"parser": function (input) {
- 						return new Buffer([parseInt(input)]);
- 				}
-	     },
+	settings: {
+			"1": {
+		       "size": 1,
+		       "index": 1,
+	 				"parser": function (input) {
+	 						return new Buffer([parseInt(input)]);
+	 				}
+		     },
 	     "2": {
 	       "size": 1,
 	       "index": 2,
@@ -106,5 +106,5 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 	       "size": 1,
 	       "index": 9
 	     }
-	  ]
-};
+	  }
+});
