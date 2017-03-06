@@ -102,21 +102,21 @@ module.exports = new ZwaveDriver( path.basename(__dirname), {
   // The field can take values from 0 to 100% (0x00–0x64).
   // The value 0xFF indicates a battery low warning.
   //
-        command_class: 'COMMAND_CLASS_BATTERY',
-        command_get: 'BATTERY_GET',
-        command_report: 'BATTERY_REPORT',
-  command_report_parser: (report, node) => {
-    // If prev value is not empty and new value is empty
-    if (node && node.state && node.state.measure_battery !== 1 && report['Battery Level (Raw)'][0] == 0xFF) {
+      command_class: 'COMMAND_CLASS_BATTERY',
+      command_get: 'BATTERY_GET',
+      command_report: 'BATTERY_REPORT',
+		  command_report_parser: (report, node) => {
+		    // If prev value is not empty and new value is empty
+		    if (node && node.state && node.state.measure_battery !== 1 && report['Battery Level (Raw)'][0] == 0xFF) {
 
-      // Trigger device flow
-      Homey.manager('flow').triggerDevice('battery_alarm', {}, {}, node.device_data, err => {
-        if (err) console.error('Error triggerDevice -> battery_alarm', err);
-      });
-    }
-    if (report['Battery Level (Raw)'][0] == 0xFF) return 1;
-      return report['Battery Level (Raw)'][0];
-        }
+		      // Trigger device flow
+		      Homey.manager('flow').triggerDevice('battery_alarm', {}, {}, node.device_data, err => {
+		        if (err) console.error('Error triggerDevice -> battery_alarm', err);
+		      });
+		    }
+		    if (report['Battery Level (Raw)'][0] == 0xFF) return 1;
+		      return report['Battery Level (Raw)'][0];
+		   }
     }
 	},
 	settings: {
