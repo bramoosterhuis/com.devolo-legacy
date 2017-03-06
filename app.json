@@ -805,17 +805,17 @@
 	}, {
 			"id": "MT2653",
 			"name": {
-				"en": "Home Control Keyfob"
+				"en": "Keyfob"
 			},
 			"zwave": {
 				"manufacturerId": [
 					373
 				],
 				"productTypeId": [
-					769
+					256
 				],
 				"productId": [
-					769
+					258
 				],
 				"learnmode": {
 					"instruction": {
@@ -1309,7 +1309,7 @@
 					373
 				],
 				"productTypeId": [
-					13
+					2
 				],
 				"productId": [
 					13
@@ -1592,7 +1592,7 @@
 					373
 				],
 				"productTypeId": [
-					14
+					2
 				],
 				"productId": [
 					14
@@ -1653,7 +1653,7 @@
 					}
 				]
 			},
-				"settings": [
+			"settings": [
 				{
 					"id": "basic_set_level",
 					"type": "number",
@@ -1851,17 +1851,17 @@
 		{
 			"id": "MT2792",
 			"name": {
-				"en": "Home Control Smart Metering Plug"
+				"en": "Smart Metering Plug"
 			},
 			"zwave": {
 				"manufacturerId": [
 					373
 				],
 				"productTypeId": [
-					0
+					1
 				],
 				"productId": [
-					0
+					18
 				],
 				"learnmode": {
 					"instruction": {
@@ -2101,7 +2101,7 @@
 					373
 				],
 				"productTypeId": [
-					17
+					1
 				],
 				"productId": [
 					17
