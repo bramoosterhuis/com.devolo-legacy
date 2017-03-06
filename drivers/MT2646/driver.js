@@ -53,7 +53,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 				return null;
 			},
 		},
-	}
+	},
 	settings: [
 		"1": {
 	       "size": 1,
