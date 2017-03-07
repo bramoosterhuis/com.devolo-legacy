@@ -285,8 +285,8 @@
 		},
 		"zwave": {
 			"manufacturerId": 373,
-			"productTypeId": 256,
-			"productId": 257,
+			"productTypeId": [256],
+			"productId": [257],
 			"wakeUpInterval": 1800,
 			"learnmode": {
 				"image": "/drivers/MT2652/assets/learnmode.svg",
@@ -790,8 +790,8 @@
 		},
 		"zwave": {
 			"manufacturerId": 373,
-			"productTypeId": 256,
-			"productId": 258,
+			"productTypeId": [256],
+			"productId": [258],
 			"wakeUpInterval": 1800,
 			"learnmode": {
 				"instruction": {
@@ -833,18 +833,18 @@
 					}
 				}
 			},
-			"mobile": {
-				"components": [
-					{
-						"id": "icon",
-						"capabilities": []
-					},
-					{
-						"id": "battery",
-						"capabilities": [
-							"measure_battery"
-						]
-					}
+		"mobile": {
+			"components": [
+				{
+					"id": "icon",
+					"capabilities": []
+				},
+				{
+					"id": "battery",
+					"capabilities": [
+						"measure_battery"
+					]
+				}
 			]
 		},
 		"class": "light",
@@ -1283,8 +1283,8 @@
 			},
 			"zwave": {
 				"manufacturerId": 373,
-				"productTypeId": 2,
-				"productId": 13,
+				"productTypeId": [2],
+				"productId": [13],
 				"learnmode": {
 					"instruction": {
 						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
@@ -1305,7 +1305,29 @@
 							"en": "Using the \"Basic Set\" for lighting control."
 						}
 					}
-				}
+				},
+				"defaultConfiguration": [
+					{
+						"id": 5,
+						"size": 1,
+						"value": 8
+					},
+					{
+						"id": 6,
+						"size": 1,
+						"value": 4
+					},
+					{
+						"id": 7,
+						"size": 1,
+						"value": 54
+					},
+					{
+						"id": 22,
+						"size": 1,
+						"value": 1
+					}
+				]
 			},
 			"class": "sensor",
 			"capabilities": [
@@ -1561,8 +1583,8 @@
 			},
 			"zwave": {
 				"manufacturerId": 373,
-				"productTypeId": 2,
-				"productId": 14,
+				"productTypeId": [2],
+				"productId": [14],
 				"learnmode": {
 					"instruction": {
 						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
@@ -1583,7 +1605,29 @@
 							"en": "Uses the \"Basic Set\" for control of other Z-Wave devices."
 						}
 					}
-				}
+				},
+				"defaultConfiguration": [
+					{
+						"id": 5,
+						"size": 1,
+						"value": 8
+					},
+					{
+						"id": 6,
+						"size": 1,
+						"value": 4
+					},
+					{
+						"id": 7,
+						"size": 1,
+						"value": 54
+					},
+					{
+						"id": 22,
+						"size": 1,
+						"value": 1
+					}
+				]
 			},
 			"class": "sensor",
 			"capabilities": [
@@ -1821,9 +1865,9 @@
 				"en": "Smart Metering Plug"
 			},
 			"zwave": {
-				"manufacturerId":	373,
-				"productTypeId": 	1,
-				"productId": 18,
+				"manufacturerId": 373,
+				"productTypeId": [1],
+				"productId": [18],
 				"learnmode": {
 					"instruction": {
 						"en": "The Home Control Smart Metering Plug can be included using two different procedures:\r\n\r\nVariant A: Auto Inclusion with the control unit\r\n1. In the Z-Wave-compatible control unit, start the procedure for adding a new device automatically.\r\n2. Plug the Home Control Smart Metering Plug into an available power socket. The Auto Inclusion is run.\r\nDuring the 2-minute timeout of the Auto Inclusion, Node Information Frames are sent within a few seconds. In the auto inclusion, it is not necessary to press the ON/OFF button.\r\n\r\nVariant B: Manual Inclusion with the control unit\r\nIf the time frame (2 minutes) of the Auto Inclusion procedure is exceeded, you can also include the Home Control Smart Metering Plug with the control unit manually.\r\n1. In the Z-Wave -compatible control unit, start the procedure for adding a new device (inclusion).\r\n2. Press the button of the connected Smart Metering Plug 3x within 1.2 seconds to start the inclusion process with the Z-Wave-compatible control unit."
