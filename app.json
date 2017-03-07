@@ -312,9 +312,10 @@
 				"small": "/drivers/MT2652/assets/images/small.png"
 			},
 			"mobile": {
-				"compontents": [
+				"components": [
 					{
-						"id": "icon"
+						"id": "icon",
+						"capabilities": []
 					},
 					{
 						"id": "battery",
@@ -858,9 +859,10 @@
 				}
 			},
 			"mobile": {
-				"compontents": [
+				"components": [
 					{
-						"id": "icon"
+						"id": "icon",
+						"capabilities": []
 					},
 					{
 						"id": "battery",
@@ -1305,15 +1307,9 @@
 				"en": "Motion Sensor"
 			},
 			"zwave": {
-				"manufacturerId": [
-					373
-				],
-				"productTypeId": [
-					2
-				],
-				"productId": [
-					13
-				],
+				"manufacturerId": 373,
+				"productTypeId": 2,
+				"productId": 13,
 				"learnmode": {
 					"instruction": {
 						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
@@ -1340,7 +1336,7 @@
 			"capabilities": [
 				"alarm_motion",
 				"alarm_tamper",
-				"measure_luminance_level",
+				"measure_luminance",
 				"measure_temperature",
 				"measure_battery"
 			],
@@ -1349,9 +1345,10 @@
 				"small": "/drivers/MT2647/assets/images/small.png"
 			},
 			"mobile": {
-				"compontents": [
+				"components": [
 					{
-						"id": "icon"
+						"id": "icon",
+						"capabilities": []
 					},
 					{
 						"id": "battery",
@@ -1363,7 +1360,7 @@
 						"id": "sensor",
 						"capabilities": [
 							"alarm_motion",
-							"measure_luminance_level",
+							"measure_luminance",
 							"measure_temperature",
 							"alarm_tamper"
 						]
@@ -1588,15 +1585,9 @@
 				"en": "Door/Window Contact"
 			},
 			"zwave": {
-				"manufacturerId": [
-					373
-				],
-				"productTypeId": [
-					2
-				],
-				"productId": [
-					14
-				],
+				"manufacturerId": 373,
+				"productTypeId": 2,
+				"productId": 14,
 				"learnmode": {
 					"instruction": {
 						"en": "There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.\nTo add into a Z-Wave network: \n1. Have Z-Wave  Controller entered inclusion mode.\n2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.\n3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds."
@@ -1623,7 +1614,7 @@
 			"capabilities": [
 				"alarm_contact",
 				"alarm_tamper",
-				"measure_luminance_level",
+				"measure_luminance",
 				"measure_temperature",
 				"measure_battery"
 			],
@@ -1632,9 +1623,10 @@
 				"small": "/drivers/MT2648/assets/images/small.png"
 			},
 			"mobile": {
-				"compontents": [
+				"components": [
 					{
-						"id": "icon"
+						"id": "icon",
+						"capabilities": []
 					},
 					{
 						"id": "battery",
@@ -1646,7 +1638,7 @@
 						"id": "sensor",
 						"capabilities": [
 							"alarm_contact",
-							"measure_luminance_level",
+							"measure_luminance",
 							"measure_temperature",
 							"alarm_tamper"
 						]
@@ -1681,12 +1673,12 @@
 					},
 					"value": 32,
 					"label": {
-						"en": "Motion alarm cancellation delay",
-						"nl": "Bewegingsalarm annuleringsperiode"
+						"en": "Alarm cancellation delay",
+						"nl": "Alarm annuleringsperiode"
 					},
 					"hint": {
-						"en": "Motion alarm cancellation and Turn lights off (Off command to Association Group 2) after these amount of seconds, in steps of 8 seconds. Range: 24 - 1016",
-						"nl": "Bewegings alarm annulering and Zet verlichting uit (Uit commando naar Associatie Groep 2) na deze hoeveelheid seconden, in stappen van 8 seconden. Bereik: 24 - 1016"
+						"en": "Alarm cancellation and Turn lights off (Off command to Association Group 2) after these amount of seconds, in steps of 8 seconds. Range: 24 - 1016",
+						"nl": "Alarm annulering and Zet verlichting uit (Uit commando naar Associatie Groep 2) na deze hoeveelheid seconden, in stappen van 8 seconden. Bereik: 24 - 1016"
 					}
 				},
 				{
@@ -1697,12 +1689,12 @@
 						"max": 100
 					},
 					"label": {
-						"en": "Motion, Brightness Threshold",
-						"nl": "Beweging, Helderheid Drempel"
+						"en": "Brightness Threshold",
+						"nl": "Helderheid Drempel"
 					},
 					"hint": {
 						"en": "The illummination threshold (in percentage) to turn on the light on movement (Association Group 2). Range: 0 (Off, never turn on light), 1 - 99, 100 (Always turn light on). Only in 1 - 99 range it will update lux value",
-						"nl": "De drempelwaarde (in percentage) voor de lichtsensor om het licht aan te schakelen bij beweging (Associatie Groep 2). Bereik: 0 (Uit, zet nooit licht aan), 1 - 99 , 100 (Zet altijd licht aan). Alleen in het 1 - 99 bereik zal de lux waarde worden geupdate"
+						"nl": "De drempelwaarde (in percentage) voor de lichtsensor om het licht aan te schakelen (Associatie Groep 2). Bereik: 0 (Uit, zet nooit licht aan), 1 - 99 , 100 (Zet altijd licht aan). Alleen in het 1 - 99 bereik zal de lux waarde worden geupdate"
 					},
 					"value": 99
 				},
@@ -1854,15 +1846,9 @@
 				"en": "Smart Metering Plug"
 			},
 			"zwave": {
-				"manufacturerId": [
-					373
-				],
-				"productTypeId": [
-					1
-				],
-				"productId": [
-					18
-				],
+				"manufacturerId":	373,
+				"productTypeId": 	1,
+				"productId": 18,
 				"learnmode": {
 					"instruction": {
 						"en": "The Home Control Smart Metering Plug can be included using two different procedures:\r\n\r\nVariant A: Auto Inclusion with the control unit\r\n1. In the Z-Wave-compatible control unit, start the procedure for adding a new device automatically.\r\n2. Plug the Home Control Smart Metering Plug into an available power socket. The Auto Inclusion is run.\r\nDuring the 2-minute timeout of the Auto Inclusion, Node Information Frames are sent within a few seconds. In the auto inclusion, it is not necessary to press the ON/OFF button.\r\n\r\nVariant B: Manual Inclusion with the control unit\r\nIf the time frame (2 minutes) of the Auto Inclusion procedure is exceeded, you can also include the Home Control Smart Metering Plug with the control unit manually.\r\n1. In the Z-Wave -compatible control unit, start the procedure for adding a new device (inclusion).\r\n2. Press the button of the connected Smart Metering Plug 3x within 1.2 seconds to start the inclusion process with the Z-Wave-compatible control unit."
@@ -1892,7 +1878,7 @@
 			"settings": [
 		    {
 		      "id": "1",
-		      "value": "720",
+		      "value": 720,
 		      "label": {
 		        "en": "Watt Meter Report Period"
 		      },
@@ -1907,7 +1893,7 @@
 		    },
 		    {
 		      "id": "2",
-		      "value": "6",
+		      "value": 6,
 		      "label": {
 		        "en": "KWh Report Period"
 		      },
@@ -1922,7 +1908,7 @@
 		    },
 		    {
 		      "id": "3",
-		      "value": "1300",
+		      "value": 1300,
 		      "label": {
 		        "en": "Threshold of current for Load caution "
 		      },
@@ -1937,7 +1923,7 @@
 		    },
 		    {
 		      "id": "4",
-		      "value": "10000",
+		      "value": 10000,
 		      "label": {
 		        "en": "Threshold of KWh for Load caution"
 		      },
@@ -2039,7 +2025,7 @@
 		    },
 		    {
 		      "id": "8",
-		      "value": "0",
+		      "value": 0,
 		      "label": {
 		        "en": "Auto off timer "
 		      },
@@ -2097,15 +2083,9 @@
 				"en": "Metering Plug"
 			},
 			"zwave": {
-				"manufacturerId": [
-					373
-				],
-				"productTypeId": [
-					1
-				],
-				"productId": [
-					17
-				],
+				"manufacturerId": 373,
+				"productTypeId": 1,
+				"productId": 17,
 				"learnmode": {
 					"instruction": {
 						"en": "1.  Put your Z-Wave controller into inclusion mode by following the instructions provided by the controller manufacturer. \n2.  Pressing On/Off button three times within 2 seconds will enter inclusion \n     mode on the switch. "
@@ -2135,7 +2115,7 @@
 			"settings": [
 		    {
 		      "id": "1",
-		      "value": "720",
+		      "value": 720,
 		      "label": {
 		        "en": "Watt Meter Report Period"
 		      },
@@ -2150,7 +2130,7 @@
 		    },
 		    {
 		      "id": "2",
-		      "value": "6",
+		      "value": 6,
 		      "label": {
 		        "en": "KWH Meter Report Period:"
 		      },
@@ -2165,7 +2145,7 @@
 		    },
 		    {
 		      "id": "3",
-		      "value": "1300",
+		      "value": 1300,
 		      "label": {
 		        "en": "Threshold of current for Load Caution"
 		      },
@@ -2180,7 +2160,7 @@
 		    },
 		    {
 		      "id": "4",
-		      "value": "10000",
+		      "value": 10000,
 		      "label": {
 		        "en": "Threshold of KWh for Load Caution"
 		      },
@@ -2282,7 +2262,7 @@
 		    },
 		    {
 		      "id": "8",
-		      "value": "0",
+		      "value": 0,
 		      "label": {
 		        "en": "Auto off timer"
 		      },

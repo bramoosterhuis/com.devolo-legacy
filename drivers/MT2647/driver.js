@@ -4,6 +4,7 @@ const path = require('path');
 const ZwaveDriver = require('homey-zwavedriver');
 
 module.exports = new ZwaveDriver( path.basename(__dirname), {
+    debug: true,
 	capabilities: {
 		alarm_contact: {
 			'command_class': 'COMMAND_CLASS_SENSOR_BINARY',
@@ -55,7 +56,7 @@ module.exports = new ZwaveDriver( path.basename(__dirname), {
 			}
 		},
 
-		measure_luminance_level: {
+		measure_luminance: {
 			'command_class': 'COMMAND_CLASS_SENSOR_MULTILEVEL',
 			'command_report': 'SENSOR_MULTILEVEL_REPORT',
 			'command_report_parser': (report, node) => {
