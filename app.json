@@ -26,297 +26,297 @@
 	"contributors": {
 		"developers": [
 			{
-				"name": "Bram Oosterhuis",
-				"email": "bram.oosterhuis.nl@gmail.com"
+			"name": "Bram Oosterhuis",
+			"email": "bram.oosterhuis.nl@gmail.com"
 			},
 			{
-				"name": "Michel de Ru",
-				"email": "michel@de-ru.net"
+			"name": "Michel de Ru",
+			"email": "michel@de-ru.net"
 			}
 		]
 	},
 	"flow": {
 		"triggers": [
 			{
-				"id": "mt2652_btn1_single",
-				"title": {
-					"en": "Button 1 single press",
-					"nl": "Een maal gedrukt op knop 1"
-				},
+			"id": "mt2652_btn1_single",
+			"title": {
+				"en": "Button 1 single press",
+				"nl": "Een maal gedrukt op knop 1"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn1_double",
-				"title": {
-					"en": "Button 1 double press",
-					"nl": "Twee maal gedrukt op knop 1"
-				},
+			"id": "mt2652_btn1_double",
+			"title": {
+				"en": "Button 1 double press",
+				"nl": "Twee maal gedrukt op knop 1"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn2_single",
-				"title": {
-					"en": "Button 2 single press",
-					"nl": "Een maal gedrukt op knop 2"
-				},
+			"id": "mt2652_btn2_single",
+			"title": {
+				"en": "Button 2 single press",
+				"nl": "Een maal gedrukt op knop 2"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn2_double",
-				"title": {
-					"en": "Button 2 double press",
-					"nl": "Twee maal gedrukt op knop 2"
-				},
+			"id": "mt2652_btn2_double",
+			"title": {
+				"en": "Button 2 double press",
+				"nl": "Twee maal gedrukt op knop 2"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn3_single",
-				"title": {
-					"en": "Button 3 single press",
-					"nl": "Een maal gedrukt op knop 3"
-				},
+			"id": "mt2652_btn3_single",
+			"title": {
+				"en": "Button 3 single press",
+				"nl": "Een maal gedrukt op knop 3"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn3_double",
-				"title": {
-					"en": "Button 3 double press",
-					"nl": "Twee maal gedrukt op knop 3"
-				},
+			"id": "mt2652_btn3_double",
+			"title": {
+				"en": "Button 3 double press",
+				"nl": "Twee maal gedrukt op knop 3"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn4_single",
-				"title": {
-					"en": "Button 4 single press",
-					"nl": "Een maal gedrukt op knop 4"
-				},
+			"id": "mt2652_btn4_single",
+			"title": {
+				"en": "Button 4 single press",
+				"nl": "Een maal gedrukt op knop 4"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2652_btn4_double",
-				"title": {
-					"en": "Button 4 double press",
-					"nl": "Twee maal gedrukt op knop 4"
-				},
+			"id": "mt2652_btn4_double",
+			"title": {
+				"en": "Button 4 double press",
+				"nl": "Twee maal gedrukt op knop 4"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2652"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2652"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn1_single",
-				"title": {
-					"en": "Button 1 single press",
-					"nl": "Een maal gedrukt op knop 1"
-				},
+			"id": "mt2653_btn1_single",
+			"title": {
+				"en": "Button 1 single press",
+				"nl": "Een maal gedrukt op knop 1"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn1_double",
-				"title": {
-					"en": "Button 1 double press",
-					"nl": "Twee maal gedrukt op knop 1"
-				},
+			"id": "mt2653_btn1_double",
+			"title": {
+				"en": "Button 1 double press",
+				"nl": "Twee maal gedrukt op knop 1"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn2_single",
-				"title": {
-					"en": "Button 2 single press",
-					"nl": "Een maal gedrukt op knop 2"
-				},
+			"id": "mt2653_btn2_single",
+			"title": {
+				"en": "Button 2 single press",
+				"nl": "Een maal gedrukt op knop 2"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn2_double",
-				"title": {
-					"en": "Button 2 double press",
-					"nl": "Twee maal gedrukt op knop 2"
-				},
+			"id": "mt2653_btn2_double",
+			"title": {
+				"en": "Button 2 double press",
+				"nl": "Twee maal gedrukt op knop 2"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn3_single",
-				"title": {
-					"en": "Button 3 single press",
-					"nl": "Een maal gedrukt op knop 3"
-				},
+			"id": "mt2653_btn3_single",
+			"title": {
+				"en": "Button 3 single press",
+				"nl": "Een maal gedrukt op knop 3"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn3_double",
-				"title": {
-					"en": "Button 3 double press",
-					"nl": "Twee maal gedrukt op knop 3"
-				},
+			"id": "mt2653_btn3_double",
+			"title": {
+				"en": "Button 3 double press",
+				"nl": "Twee maal gedrukt op knop 3"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn4_single",
-				"title": {
-					"en": "Button 4 single press",
-					"nl": "Een maal gedrukt op knop 4"
-				},
+			"id": "mt2653_btn4_single",
+			"title": {
+				"en": "Button 4 single press",
+				"nl": "Een maal gedrukt op knop 4"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
-				"id": "mt2653_btn4_double",
-				"title": {
-					"en": "Button 4 double press",
-					"nl": "Twee maal gedrukt op knop 4"
-				},
+			"id": "mt2653_btn4_double",
+			"title": {
+				"en": "Button 4 double press",
+				"nl": "Twee maal gedrukt op knop 4"
+			},
 				"args": [
 					{
-						"name": "device",
-						"type": "device",
-						"filter": "driver_id=MT2653"
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=MT2653"
 					}
 				]
 			},
 			{
 				"id": "battery_alarm",
-				"title": {
-					"en": "The battery alarm turned on",
-					"nl": "De batterijwaarschuwing gaat aan"
-				},
+			"title": {
+				"en": "The battery alarm turned on",
+				"nl": "De batterijwaarschuwing gaat aan"
+			},
 				"args": [
 					{
-						"name": "device",
+				"name": "device",
 						"type": "device"
 					}
 				]
 			}
 		]
-	},
+			},
 	"drivers": [
 		{
-			"id": "MT2652",
-			"name": {
-				"en": "Scene Switch",
-				"nl": "Intelligente Schakelaar"
+		"id": "MT2652",
+		"name": {
+			"en": "Scene Switch",
+			"nl": "Intelligente Schakelaar"
+		},
+		"zwave": {
+			"manufacturerId": 373,
+			"productTypeId": 256,
+			"productId": 257,
+			"wakeUpInterval": 1800,
+			"learnmode": {
+				"image": "/drivers/MT2652/assets/learnmode.svg",
+				"instruction": {
+					"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
+					"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
+				}
 			},
-			"zwave": {
-				"manufacturerId": 373,
-				"productTypeId": 256,
-				"productId": 257,
-				"wakeUpInterval": 1800,
-				"learnmode": {
-					"image": "/drivers/MT2652/assets/learnmode.svg",
-					"instruction": {
-						"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
-						"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
-					}
-				},
-				"associationGroups": [
-					1,
-					2,
-					3,
-					4,
-					5
-				]
-			},
-			"class": "light",
-			"capabilities": [
-				"measure_battery"
-			],
-			"images": {
-				"large": "/drivers/MT2652/assets/images/large.png",
-				"small": "/drivers/MT2652/assets/images/small.png"
-			},
+			"associationGroups": [
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		"class": "light",
+		"capabilities": [
+			"measure_battery"
+		],
+		"images": {
+			"large": "/drivers/MT2652/assets/images/large.png",
+			"small": "/drivers/MT2652/assets/images/small.png"
+		},
 			"mobile": {
 				"components": [
 					{
 						"id": "icon",
 						"capabilities": []
-					},
+			},
 					{
 						"id": "battery",
 						"capabilities": [
@@ -327,32 +327,32 @@
 			},
 			"settings": [
 				{
-					"id": "1",
+				"id": "1",
 					"value": "1",
-					"label": {
+				"label": {
 						"en": "Button 1 and 3 pair mode"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "In separate mode button 1 works with group A, button 3 with groups C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button 1/3 are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group A, double click with group C."
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "In pair with double clicks"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "seperately"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "In pair without double clicks"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -360,60 +360,60 @@
 				{
 					"id": "11",
 					"value": "8",
-					"label": {
-						"en": "Command to Control Group A"
-					},
-					"hint": {
+			"label": {
+				"en": "Command to Control Group A"
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Control DoorLock"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Central Scene to Gateway"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
 							"id": "6",
-							"label": {
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
 							"id": "7",
-							"label": {
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -421,60 +421,60 @@
 				{
 					"id": "12",
 					"value": "8",
-					"label": {
-						"en": "Command to Control Group B"
-					},
-					"hint": {
+			"label": {
+				"en": "Command to Control Group B"
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Control DoorLock"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
 							"id": "6",
-							"label": {
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
 							"id": "7",
-							"label": {
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -482,60 +482,60 @@
 				{
 					"id": "13",
 					"value": "8",
-					"label": {
-						"en": "Command to Control Group C"
-					},
-					"hint": {
+			"label": {
+				"en": "Command to Control Group C"
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
 							"id": "6",
-							"label": {
+				"label": {
 								"en": "Control DoorLock"
-							}
+				}
 						},
 						{
 							"id": "7",
-							"label": {
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -543,48 +543,48 @@
 				{
 					"id": "14",
 					"value": "8",
-					"label": {
-						"en": "Command to Control Group D"
-					},
-					"hint": {
+			"label": {
+				"en": "Command to Control Group D"
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
 							"id": "6",
@@ -593,10 +593,10 @@
 							}
 						},
 						{
-							"id": "7",
-							"label": {
+				"id": "7",
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -604,7 +604,7 @@
 				{
 					"id": "2",
 					"value": "1",
-					"label": {
+				"label": {
 						"en": "Button 2 and 4 pair mode "
 					},
 					"hint": {
@@ -615,14 +615,14 @@
 							"id": "0",
 							"label": {
 								"en": "In pair with double clicks"
-							}
+				}
 						},
 						{
 							"id": "1",
-							"label": {
+			"label": {
 								"en": "In pair without double clicks"
 							}
-						},
+			},
 						{
 							"id": "2",
 							"label": {
@@ -634,13 +634,13 @@
 				},
 				{
 					"id": "21",
-					"value": "1",
+			"value": "1",
 					"label": {
 						"en": "Send the following Switch All commands "
 					},
-					"hint": {
+			"hint": {
 						"en": {}
-					},
+			},
 					"values": [
 						{
 							"id": "0",
@@ -649,27 +649,27 @@
 							}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch on only"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch all on and off"
-							}
-						}
+				}
+				}
 					],
 					"type": "dropdown"
 				},
 				{
 					"id": "22",
 					"value": "0",
-					"label": {
-						"en": "Invert buttons"
-					},
-					"hint": {
+			"label": {
+				"en": "Invert buttons"
+			},
+			"hint": {
 						"en": {}
 					},
 					"values": [
@@ -677,38 +677,38 @@
 							"id": "0",
 							"label": {
 								"en": "Yes"
-							}
+			}
 						},
 						{
 							"id": "1",
-							"label": {
+			"label": {
 								"en": "No"
 							}
 						}
 					],
 					"type": "dropdown"
-				},
+			},
 				{
 					"id": "25",
-					"value": "1",
+			"value": "1",
 					"label": {
 						"en": "Blocks wakeup even when wakeup interval is set"
 					},
-					"hint": {
+			"hint": {
 						"en": {}
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Wakeup is blocked"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Wakeup is not blocked"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -716,30 +716,30 @@
 				{
 					"id": "30",
 					"value": "0",
-					"label": {
-						"en": "Send unsolicited Battery Report on Wake Up"
-					},
+			"label": {
+				"en": "Send unsolicited Battery Report on Wake Up "
+			},
 					"hint": {
 						"en": {}
 					},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "No"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "To same node as wake up notification"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Broadcast"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -747,62 +747,63 @@
 			]
 		},
 		{
-			"id": "014G0801",
-			"name": {
-				"en": "Radiator Thermostat",
-				"nl": "Radiatorthermostaat"
-			},
-			"zwave": {
-				"manufacturerId": 2,
-				"productTypeId": 5,
-				"productId": 373,
-				"wakeUpInterval": 1800,
-				"learnmode": {
-					"image": "drivers/014G0801/assets/learnmode.svg",
-					"instruction": {
-						"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
-						"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
-					}
-				},
-				"associationGroups": 1
-			},
-			"class": "thermostat",
-			"capabilities": [
-				"target_temperature",
-				"measure_temperature",
-				"measure_battery"
-			],
-			"capabilitiesOptions": {
-				"target_temperature": {
-					"min": 4,
-					"max": 28
+		"id": "014G0801",
+		"name": {
+			"en": "Radiator Thermostat",
+			"nl": "Radiatorthermostaat"
+		},
+		"zwave": {
+			"manufacturerId": 2,
+			"productTypeId": 5,
+			"productId": 373,
+			"wakeUpInterval": 1800,
+			"learnmode": {
+				"image": "drivers/014G0801/assets/learnmode.svg",
+				"instruction": {
+					"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
+					"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
 				}
 			},
-			"images": {
-				"small": "drivers/014G0801/assets/images/small.jpg",
-				"large": "drivers/014G0801/assets/images/large.jpg"
+			"associationGroups": 1
+		},
+		"class": "thermostat",
+		"capabilities": [
+			"target_temperature",
+			"measure_temperature",
+			"measure_battery"
+		],
+		"capabilitiesOptions": {
+			"target_temperature": {
+				"min": 4,
+				"max": 28
 			}
 		},
+		"images": {
+			"small": "drivers/014G0801/assets/images/small.jpg",
+			"large": "drivers/014G0801/assets/images/large.jpg"
+		}
+		},
 		{
-			"id": "MT2653",
-			"name": {
+		"id": "MT2653",
+		"name": {
 				"en": "Keyfob"
-			},
-			"zwave": {
-				"manufacturerId": 373,
-				"productTypeId": 256,
-				"productId": 258,
-				"learnmode": {
-					"instruction": {
+		},
+		"zwave": {
+			"manufacturerId": 373,
+			"productTypeId": 256,
+			"productId": 258,
+			"wakeUpInterval": 1800,
+			"learnmode": {
+				"instruction": {
 						"en": "When in factory default push Button 3 (secure) or Button 4 (normal) for one second to enter inclusion mode. The inclusion mode is indicated by a blinking green LED. From second device on you need to enter management mode  push all four buttons together for one second - green led blinks slowly), hit button 3 ( enter primary controller functions - green led blinks faster) and then button 1 (secure) or button 2 (normal)."
-					}
-				},
-				"associationGroups": [
-					1,
-					2,
-					3,
-					4,
-					5
+				}
+			},
+			"associationGroups": [
+				1,
+				2,
+				3,
+				4,
+				5
 				],
 				"associationGroupsOptions": {
 					"1": {
@@ -844,44 +845,44 @@
 							"measure_battery"
 						]
 					}
-				]
-			},
-			"class": "light",
-			"capabilities": [
-				"measure_battery"
-			],
-			"images": {
+			]
+		},
+		"class": "light",
+		"capabilities": [
+			"measure_battery"
+		],
+		"images": {
 				"small": "drivers/MT2653/assets/images/small.png",
 				"large": "drivers/MT2653/assets/images/large.png"
-			},
+		},
 			"settings": [
 				{
 					"id": "1",
 					"value": "1",
-					"label": {
-						"en": "Button 1 and 3 pair mode"
-					},
-					"hint": {
+			"label": {
+				"en": "Button 1 and 3 pair mode"
+			},
+			"hint": {
 						"en": "In separate mode button 1 works with group A, button 3 with groups C. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button 1/3 are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group A, double click with group C."
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "seperately"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "In pair without double clicks"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "In pair with double clicks"
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -889,37 +890,37 @@
 				{
 					"id": "11",
 					"value": "8",
-					"label": {
+			"label": {
 						"en": "Command to Control Group A"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group A when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
 							"id": "3",
-							"label": {
+			"label": {
 								"en": "Switch All"
 							}
-						},
+			},
 						{
 							"id": "4",
 							"label": {
@@ -949,61 +950,61 @@
 				},
 				{
 					"id": "12",
-					"value": "8",
+			"value": "8",
 					"label": {
 						"en": "Command to Control Group B"
 					},
-					"hint": {
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group B when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
 							"id": "6",
-							"label": {
+				"label": {
 								"en": "Control DoorLock"
-							}
+				}
 						},
 						{
 							"id": "7",
-							"label": {
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -1011,60 +1012,60 @@
 				{
 					"id": "13",
 					"value": "8",
-					"label": {
+			"label": {
 						"en": "Command to Control Group C"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group C when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
 							"id": "6",
-							"label": {
+				"label": {
 								"en": "Control DoorLock"
-							}
+				}
 						},
 						{
 							"id": "7",
-							"label": {
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -1072,48 +1073,48 @@
 				{
 					"id": "14",
 					"value": "8",
-					"label": {
+			"label": {
 						"en": "Command to Control Group D"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "This parameter defines the command to be sent to devices of control group D when the related button is pressed"
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Disabled"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
-							}
+				}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Switch On/Off only (send Basic Set)"
-							}
+				}
 						},
 						{
-							"id": "3",
-							"label": {
+				"id": "3",
+				"label": {
 								"en": "Switch All"
-							}
+				}
 						},
 						{
-							"id": "4",
-							"label": {
+				"id": "4",
+				"label": {
 								"en": "Send Scenes"
-							}
+				}
 						},
 						{
-							"id": "5",
-							"label": {
+				"id": "5",
+				"label": {
 								"en": "Send Preconfigured Scenes"
-							}
+				}
 						},
 						{
 							"id": "6",
@@ -1122,10 +1123,10 @@
 							}
 						},
 						{
-							"id": "7",
-							"label": {
+				"id": "7",
+				"label": {
 								"en": "Central Scene to Gateway "
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -1133,7 +1134,7 @@
 				{
 					"id": "2",
 					"value": "1",
-					"label": {
+				"label": {
 						"en": "Button 2 and 4 pair mode "
 					},
 					"hint": {
@@ -1144,7 +1145,7 @@
 							"id": "0",
 							"label": {
 								"en": "seperately"
-							}
+				}
 						},
 						{
 							"id": "1",
@@ -1426,16 +1427,16 @@
 				},
 				{
 					"id": "operation_mode",
-					"type": "dropdown",
+			"type": "dropdown",
 					"value": "0",
 					"values": [
 						{
 							"id": "0",
-							"label": {
+			"label": {
 								"en": "Home Automation Mode",
 								"nl": "Huis Automatisering Modus"
 							}
-						},
+			},
 						{
 							"id": "1",
 							"label": {
@@ -1448,11 +1449,11 @@
 						"en": "Operation Mode",
 						"nl": "Werking Modus"
 					},
-					"hint": {
+			"hint": {
 						"en": "Security = Always send Motion Alarms & Selectable PIR sleep timer. Home Automation = Motion on lux treshold & PIR inactive for 6 seconds.",
 						"nl": "Beveiliging = Altijd beweging melden & selecteerbare inactieve beweging timer. Huis Automatisering = Beweging onder Lux Drempel & Beweging inactief voor 6 seconden."
 					}
-				},
+			},
 				{
 					"id": "door/window_mode",
 					"type": "checkbox",
@@ -1691,18 +1692,18 @@
 					"value": "0",
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Home Automation Mode",
 								"nl": "Huis Automatisering Modus"
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Security Mode",
 								"nl": "Beveiliging Modus"
-							}
+				}
 						}
 					],
 					"label": {
@@ -1866,9 +1867,9 @@
 					}
 				},
 				{
-					"id": "2",
+				"id": "2",
 					"value": 6,
-					"label": {
+				"label": {
 						"en": "KWh Report Period"
 					},
 					"hint": {
@@ -1878,12 +1879,12 @@
 					"attr": {
 						"min": 1,
 						"max": 32767
-					}
+				}
 				},
 				{
-					"id": "3",
+				"id": "3",
 					"value": 1300,
-					"label": {
+				"label": {
 						"en": "Threshold of current for Load caution "
 					},
 					"hint": {
@@ -1893,12 +1894,12 @@
 					"attr": {
 						"min": 10,
 						"max": 1300
-					}
+				}
 				},
 				{
-					"id": "4",
+				"id": "4",
 					"value": 10000,
-					"label": {
+				"label": {
 						"en": "Threshold of KWh for Load caution"
 					},
 					"hint": {
@@ -1908,12 +1909,12 @@
 					"attr": {
 						"min": 1,
 						"max": 10000
-					}
+				}
 				},
 				{
-					"id": "5",
+				"id": "5",
 					"value": "1",
-					"label": {
+				"label": {
 						"en": "Restore switch state mode "
 					},
 					"hint": {
@@ -1924,7 +1925,7 @@
 							"id": "0",
 							"label": {
 								"en": "Switch off"
-							}
+				}
 						},
 						{
 							"id": "1",
@@ -1967,9 +1968,9 @@
 					"type": "dropdown"
 				},
 				{
-					"id": "7",
+				"id": "7",
 					"value": "1",
-					"label": {
+				"label": {
 						"en": "LED indication mode"
 					},
 					"hint": {
@@ -1980,7 +1981,7 @@
 							"id": "0",
 							"label": {
 								"en": "Show switch state"
-							}
+				}
 						},
 						{
 							"id": "1",
@@ -1998,9 +1999,9 @@
 					"type": "dropdown"
 				},
 				{
-					"id": "8",
+				"id": "8",
 					"value": 0,
-					"label": {
+				"label": {
 						"en": "Auto off timer "
 					},
 					"hint": {
@@ -2026,14 +2027,14 @@
 							"id": "0",
 							"label": {
 								"en": "Switch off"
-							}
+				}
 						},
 						{
 							"id": "1",
-							"label": {
+			"label": {
 								"en": "Ignore"
 							}
-						},
+			},
 						{
 							"id": "2",
 							"label": {
@@ -2070,7 +2071,7 @@
 				],
 				"associationGroupsOptions": {
 					"1": {
-						"hint": {
+			"hint": {
 							"en": "Z-Wave Plus Lifeline"
 						}
 					}
@@ -2088,9 +2089,9 @@
 			},
 			"settings": [
 				{
-					"id": "1",
+				"id": "1",
 					"value": 720,
-					"label": {
+				"label": {
 						"en": "Watt Meter Report Period"
 					},
 					"hint": {
@@ -2100,12 +2101,12 @@
 					"attr": {
 						"min": 0,
 						"max": 32767
-					}
+				}
 				},
 				{
-					"id": "2",
+				"id": "2",
 					"value": 6,
-					"label": {
+				"label": {
 						"en": "KWH Meter Report Period:"
 					},
 					"hint": {
@@ -2115,12 +2116,12 @@
 					"attr": {
 						"min": 0,
 						"max": 32767
-					}
+				}
 				},
 				{
 					"id": "3",
 					"value": 1300,
-					"label": {
+				"label": {
 						"en": "Threshold of current for Load Caution"
 					},
 					"hint": {
@@ -2130,57 +2131,57 @@
 					"attr": {
 						"min": 10,
 						"max": 1300
-					}
+				}
 				},
 				{
 					"id": "4",
 					"value": 10000,
-					"label": {
+			"label": {
 						"en": "Threshold of KWh for Load Caution"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "This is a warning when the KWh of load over the preset threshold value, If the \nsetting value is 10000, when the Accumulated Power Consumption of Relay1 over this value, Home Control Metering Plug will send KWH meter report to warn the Group1 node, \nminimum value is 1KWh and default value is 10000 kWh."
 					},
 					"type": "number",
 					"attr": {
 						"min": 1,
 						"max": 10000
-					}
+			}
 				},
 				{
 					"id": "5",
 					"value": "1",
-					"label": {
+			"label": {
 						"en": "Restore switch state mode"
-					},
-					"hint": {
+			},
+			"hint": {
 						"en": "Whenever the AC power return from lost, Home Control Metering Plug will restore the switch state which could be SWITCH OFF、LAST SWITCH STATE、SWITCH ON. The default setting is LAST SWITCH STATE. "
-					},
+			},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "Upon the return of AC power, the switch will remain Off."
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "Upon the return of AC power, the switch will return to the state it was in when the power was turned off."
-							}
+				}
 						},
 						{
 							"id": "2",
-							"label": {
+			"label": {
 								"en": "Upon the return of AC power, the switch will turn On."
 							}
 						}
 					],
 					"type": "dropdown"
-				},
+			},
 				{
 					"id": "6",
-					"value": "1",
+			"value": "1",
 					"label": {
 						"en": "Mode of switch off function"
 					},
@@ -2189,16 +2190,16 @@
 					},
 					"values": [
 						{
-							"id": "0",
-							"label": {
+				"id": "0",
+				"label": {
 								"en": "SWITCH OFF commands received are ignored."
-							}
+				}
 						},
 						{
-							"id": "1",
-							"label": {
+				"id": "1",
+				"label": {
 								"en": "SWITCH OFF commands received are honored."
-							}
+				}
 						}
 					],
 					"type": "dropdown"
@@ -2226,10 +2227,10 @@
 							}
 						},
 						{
-							"id": "2",
-							"label": {
+				"id": "2",
+				"label": {
 								"en": "Flash Mode - When the state of the switch changes, the LED will be on for one second and then will turn off."
-							}
+				}
 						}
 					],
 					"type": "dropdown"

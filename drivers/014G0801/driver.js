@@ -18,9 +18,9 @@ Homey.log("Will set pollInterval to the same value as wakeUpInterval, which is: 
 module.exports = new ZwaveDriver(path.basename(__dirname), {
 	debug: true,
 	capabilities: {
-		measure_battery: {
+		measure_battery: {			
 			// http://z-wave.sigmadesigns.com/wp-content/uploads/2016/08/SDS12657-12-Z-Wave-Command-Class-Specification-A-M.pdf, page 125
-			//
+			// 
 			// The Battery Level Get Command is used to request the level of a battery.
 			// The Battery Level Report Command MUST be returned in response to this command.
 			//
@@ -31,7 +31,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 			//
 			command_class: 'COMMAND_CLASS_BATTERY',
 			command_get: 'BATTERY_GET',
-			command_report: 'BATTERY_REPORT',
+			command_report: 'BATTERY_REPORT',   
 			command_report_parser: (report, node) => {
 				// If prev value is not empty and new value is empty
 				if (node && node.state && node.state.measure_battery !== 1 && report['Battery Level (Raw)'][0] == 0xFF) {
@@ -46,7 +46,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
             },
 			pollInterval: wakeUpInterval
 		},
-
+		
 		measure_temperature: {
 			// http://z-wave.sigmadesigns.com/wp-content/uploads/2016/08/SDS12657-12-Z-Wave-Command-Class-Specification-A-M.pdf, page 525
 			//
@@ -66,7 +66,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 			},
 			pollInterval: wakeUpInterval
 		},
-
+		
 		target_temperature: {
 			// http://z-wave.sigmadesigns.com/wp-content/uploads/2016/08/SDS12652-13-Z-Wave-Command-Class-Specification-N-Z.pdf, page 321
 			//
@@ -80,14 +80,14 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 				};
 			},
 			command_report: 'THERMOSTAT_SETPOINT_REPORT',
-			command_report_parser: report => {
+			command_report_parser: report => {	
 				if (report.hasOwnProperty('Level2') &&
 					report.Level2.hasOwnProperty('Precision') &&
 					report.Level2.hasOwnProperty('Size')) {
 						const scale = Math.pow(10, report.Level2['Precision']);
 						return report['Value'].readUIntBE(0, report.Level2['Size']) / scale;
 						//console.log(report['Value'].readUIntBE(0, report.Level2['Size']) / scale);
-					}
+					}					
 			},
 			command_set: 'THERMOSTAT_SETPOINT_SET',
 			command_set_parser: value => {
