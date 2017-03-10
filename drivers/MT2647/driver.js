@@ -207,20 +207,61 @@ module.exports = new ZwaveDriver( path.basename(__dirname), {
 			"size": 1,
 			"parser": value => new Buffer([Math.round(value / 8)]),
 		},
-		"battery_report_time": {
-			"index": 10,
-			"size": 1,
-			"parser": value => new Buffer([Math.round(value * 2)]),
+    "enable_battery_report" :{
+      "index": 10,
+      "size": 1,
+      "parser": (value, settings) => new Buffer([
+				   (value) ? Math.round(settings.battery_report_time * 2) : 0
+			  ]),
 		},
-		"illumination_report_time": {
-			"index": 12,
-			"size": 1,
-			"parser": value => new Buffer([Math.round(value * 2)]),
+    "battery_report_time": {
+	    "index": 10,
+	    "size": 1,
+      "parser": (value, settings) => new Buffer([
+           (settings.enable_battery_report) ? Math.round(value * 2) : 0
+				 ])
+    },
+		"enable_illumination_report" :{
+      "index": 12,
+      "size": 1,
+      "parser": (value, settings) => new Buffer([
+				   (value) ? Math.round(settings.illumination_report_time * 2) : 0
+			  ]),
 		},
-		"temperature_report_time": {
-			"index": 13,
-			"size": 1,
-			"parser": value => new Buffer([Math.round(value * 2)]),
+    "illumination_report_time": {
+      "index": 12,
+      "size": 1,
+      "parser": (value, settings) => new Buffer([
+           (settings.enable_illumination_report) ? Math.round(value * 2) : 0
+				 ])
+    },
+		"enable_temperature_report" :{
+      "index": 13,
+      "size": 1,
+      "parser": (value, settings) => new Buffer([
+				   (value) ? Math.round(settings.temperature_report_time * 2) : 0
+			  ]),
 		},
+    "temperature_report_time": {
+      "index": 13,
+      "size": 1,
+      "parser": (value, settings) => new Buffer([
+           (settings.enable_temperature_report) ? Math.round(value * 2) : 0
+				 ])
+    },
+		"enable_temperature_differential_report" :{
+      "index": 21,
+      "size": 1,
+      "parser": (value) => new Buffer([
+				   (value) ? 1 : 0
+			  ]),
+		},
+		"enable_illumination_differential_report" :{
+      "index": 22,
+      "size": 1,
+      "parser": (value) => new Buffer([
+				   (value) ? 1 : 0
+			  ]),
+		}
 	}
 });
