@@ -290,7 +290,7 @@
 				"productId": 257,
 				"wakeUpInterval": 1800,
 				"learnmode": {
-					"image": "/drivers/MT2652/assets/learnmode.svg",
+					"image": "/drivers/MT2652/assets/icon.svg",
 					"instruction": {
 						"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
 						"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
