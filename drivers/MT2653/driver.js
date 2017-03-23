@@ -8,9 +8,9 @@ const ZwaveDriver = require("homey-zwavedriver");
 module.exports = new ZwaveDriver(path.basename(__dirname), {
     debug: true,
     capabilities: {
-        measure_battery: {			
+        measure_battery: {
 			// http://z-wave.sigmadesigns.com/wp-content/uploads/2016/08/SDS12657-12-Z-Wave-Command-Class-Specification-A-M.pdf, page 125
-			// 
+			//
 			// The Battery Level Get Command is used to request the level of a battery.
 			// The Battery Level Report Command MUST be returned in response to this command.
 			//
@@ -27,7 +27,7 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
 				if (node && node.state && node.state.measure_battery !== 1 && report['Battery Level (Raw)'][0] == 0xFF) {
 
 					// Trigger device flow
-					Homey.manager('flow').triggerDevice('mt2653_battery_alarm', {}, {}, node.device_data, err => {
+					Homey.manager('flow').triggerDevice('battery_alarm', {}, {}, node.device_data, err => {
 						if (err) console.error('Error triggerDevice -> battery_alarm', err);
 					});
 				}
@@ -37,78 +37,48 @@ module.exports = new ZwaveDriver(path.basename(__dirname), {
         }
     },
     settings: {
-        "button_1_and_3_pair_mode": {
-            "index": 1,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "button_2_and_4_pair_mode": {
-            "index": 2,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "command_to_control_group_a": {
-            "index": 11,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "command_to_control_group_b": {
-            "index": 12,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "command_to_control_group_c": {
-            "index": 13,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "command_to_control_group_d": {
-            "index": 14,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "send_the_following_switch_sll_commands": {
-            "index": 21,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "invert_buttons": {
-            "index": 22,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([( input === true ) ? 1 : 0]);
-            }
-        },
-        "blocks_wakeup_even_when_wakeup_interval_is_set": {
-            "index": 25,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        },
-        "send_unsolicited_battery_report_on_wake_up": {
-            "index": 30,
-            "size": 1,
-            "parser": function (input) {
-                return new Buffer([parseInt(input)]);
-            }
-        }
+      "1": {
+        "size": 1,
+        "index": 1
+      },
+      "2": {
+        "size": 1,
+        "index": 2
+      },
+      "11": {
+        "size": 1,
+        "index": 11
+      },
+      "12": {
+        "size": 1,
+        "index": 12
+      },
+      "13": {
+        "size": 1,
+        "index": 13
+      },
+      "14": {
+        "size": 1,
+        "index": 14
+      },
+      "21": {
+        "size": 1,
+        "index": 21
+      },
+      "22": {
+        "size": 1,
+        "index": 22
+      },
+      "25": {
+        "size": 1,
+        "index": 25
+      },
+      "30": {
+        "size": 1,
+        "index": 30
+      }
     }
-})
+});
 
 // bind Flow
 module.exports.on('initNode', function( token ){
@@ -134,4 +104,4 @@ module.exports.on('initNode', function( token ){
 			}
 		});
 	}
-})
+});
