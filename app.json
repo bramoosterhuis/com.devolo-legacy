@@ -3,7 +3,7 @@
 	"name": {
 		"en": "Devolo"
 	},
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"compatibility": ">=1.2.0",
 	"description": {
 		"en": "Devolo Home Control z-wave devices for Homey",
@@ -758,13 +758,30 @@
 				"productId": 373,
 				"wakeUpInterval": 1800,
 				"learnmode": {
-					"image": "drivers/014G0801/assets/learnmode.svg",
+					"image": "/drivers/014G0801/assets/icon.svg",
 					"instruction": {
 						"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
 						"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
 					}
 				},
 				"associationGroups": 1
+			},
+			"class": "thermostat",
+			"capabilities": [
+				"target_temperature",
+				"measure_temperature",
+				"measure_battery"
+			],
+			"capabilitiesOptions": {
+				"target_temperature": {
+					"min": 4,
+					"max": 28,
+         		   	"step": 0.5
+				}
+			},
+			"images": {
+				"small": "/drivers/014G0801/assets/images/small.jpg",
+				"large": "/drivers/014G0801/assets/images/large.jpg"
 			},
 	        "mobile": {
 	          "components": [
@@ -792,23 +809,6 @@
 	            }
 	          ]
 	        },
-			"class": "thermostat",
-			"capabilities": [
-				"target_temperature",
-				"measure_temperature",
-				"measure_battery"
-			],
-			"capabilitiesOptions": {
-				"target_temperature": {
-					"min": 4,
-					"max": 28,
-         		   	"step": 0.5
-				}
-			},
-			"images": {
-				"small": "drivers/014G0801/assets/images/small.jpg",
-				"large": "drivers/014G0801/assets/images/large.jpg"
-			},
 			"settings": [{
 	            "type": "group",
 	            "label": {
