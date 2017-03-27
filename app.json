@@ -3,7 +3,7 @@
 	"name": {
 		"en": "Devolo"
 	},
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"compatibility": ">=1.2.0",
 	"description": {
 		"en": "Devolo Home Control z-wave devices for Homey",
@@ -270,7 +270,8 @@
 				"args": [
 					{
 						"name": "device",
-						"type": "device"
+						"type": "device",
+           			 	"filter": "driver_id=014G0801"
 					}
 				]
 			}
@@ -289,7 +290,7 @@
 				"productId": 257,
 				"wakeUpInterval": 1800,
 				"learnmode": {
-					"image": "/drivers/MT2652/assets/learnmode.svg",
+					"image": "/drivers/MT2652/assets/icon.svg",
 					"instruction": {
 						"en": "Activate inclusion on the device by pressing any one of the four buttons for one second",
 						"nl": "Om pairing te activeren, druk langer een seconde op een van de knoppen van de schakelaar."
@@ -757,7 +758,7 @@
 				"productId": 373,
 				"wakeUpInterval": 1800,
 				"learnmode": {
-					"image": "drivers/014G0801/assets/learnmode.svg",
+					"image": "/drivers/014G0801/assets/icon.svg",
 					"instruction": {
 						"en": "Press the middle button on your Devolo Home Control Radiator Thermostat",
 						"nl": "Druk op de middelste knop van de Devolo Home Control Radiatorthermostaat"
@@ -774,13 +775,60 @@
 			"capabilitiesOptions": {
 				"target_temperature": {
 					"min": 4,
-					"max": 28
+					"max": 28,
+         		   	"step": 0.5
 				}
 			},
 			"images": {
-				"small": "drivers/014G0801/assets/images/small.jpg",
-				"large": "drivers/014G0801/assets/images/large.jpg"
-			}
+				"small": "/drivers/014G0801/assets/images/small.jpg",
+				"large": "/drivers/014G0801/assets/images/large.jpg"
+			},
+	        "mobile": {
+	          "components": [
+	            {
+	              "id": "icon",
+	              "capabilities": []
+	            },
+	            {
+	              "id": "battery",
+	              "capabilities": [
+	                "measure_battery"
+	              ]
+	            },
+	            {
+	              "id": "sensor",
+	              "capabilities": [
+	                "measure_temperature"
+	              ]
+	            },
+	            {
+	              "id": "thermostat",
+	              "capabilities": [
+	                "target_temperature"
+	              ]
+	            }
+	          ]
+	        },
+			"settings": [{
+	            "type": "group",
+	            "label": {
+	                "en": "General settings",
+					"nl": "Algemene instellingen"
+	            },
+	            "children": [{
+	                "id": "protected",
+	                "type": "checkbox",
+	                "value": false,
+	                "label": {
+	                    "en": "Protected",
+						"nl": "Beveiligd"
+	                },
+	                "hint": {
+	                    "en": "Prevent making changes on the device itself",
+						"nl": "Voorkom dat er wijzigingen gemaakt kunnen worden op het apparaat"
+	                }
+				}]
+			}]
 		},
 		{
 			"id": "MT2653",
